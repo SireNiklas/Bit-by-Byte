@@ -15,6 +15,8 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private float playerJump = 3f;
     private Vector3 GRAVITY = Physics.gravity;
 
+    private Vector3 lastPos;
+
     private Transform cameraTransform;
 
     private PlayerInputActions playerInputActions;
@@ -36,7 +38,7 @@ public class PlayerMovementController : MonoBehaviour
     private void MovementWASD(InputAction.CallbackContext context)
     {
 
-        Debug.Log("<color=cyan>Player has initiated the <b>WASD</b> command.</color>");
+        Debug.Log("<color=cyan>Player has initiated the <b>WASD</b> command.\n</color>" + context.phase);
 
     }
 
@@ -76,8 +78,14 @@ public class PlayerMovementController : MonoBehaviour
     void LateUpdate()
     {
 
-        // Rotate camera relative to Player.
-        transform.rotation = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
+        if (lastPos.x != gameObject.transform.position.x && lastPos.z != gameObject.transform.position.z)
+        {
+
+            // Rotate camera relative to Player.
+            transform.rotation = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
+
+        }
+        lastPos = gameObject.transform.position;
 
     }
 
