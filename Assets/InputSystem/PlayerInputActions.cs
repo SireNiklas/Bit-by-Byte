@@ -148,7 +148,7 @@ public class @PlayerInputActions : IInputActionCollection, IDisposable
                     ""id"": ""e1499ef7-1027-43b1-ba07-2c46759ee152"",
                     ""path"": ""<Gamepad>/rightStick"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""StickDeadzone"",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Look"",
                     ""isComposite"": false,
