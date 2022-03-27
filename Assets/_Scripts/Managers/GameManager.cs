@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class GameManager : MonoBehaviour
 {
 
-    public GameObject Player;
+    //public GameObject Player;
     [SerializeField] bool lockCurser = true;
 
     private void Awake()
@@ -47,8 +47,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
 
     }
 }
