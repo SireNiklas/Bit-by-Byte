@@ -1,8 +1,8 @@
 {
-    "name": "PlayerInputActions",
+    "name": "PlayerControls",
     "maps": [
         {
-            "name": "PlayerMovement",
+            "name": "Movement",
             "id": "59834b32-2356-49ce-ba78-edbcd59c6881",
             "actions": [
                 {
@@ -17,14 +17,6 @@
                     "name": "WASD",
                     "type": "Value",
                     "id": "b74ebc2e-900c-4ae8-b1f5-52b4385666f4",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Look",
-                    "type": "Value",
-                    "id": "001f1fa4-828b-48bc-81ac-6e399ac918d4",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
@@ -129,28 +121,6 @@
                 },
                 {
                     "name": "",
-                    "id": "5c38c918-1ecf-49c5-bc98-82cd523595d2",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "ScaleVector2(x=15,y=15)",
-                    "groups": "Keyboard & Mouse",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e1499ef7-1027-43b1-ba07-2c46759ee152",
-                    "path": "<Gamepad>/rightStick",
-                    "interactions": "",
-                    "processors": "StickDeadzone,ScaleVector2(x=50,y=50)",
-                    "groups": "Gamepad",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "20fd83a2-dccf-46f9-afaf-c95cd6b67a97",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
@@ -164,10 +134,67 @@
                     "name": "",
                     "id": "280b3bf7-75d6-4a8c-a53f-e6f919d43c97",
                     "path": "<Gamepad>/leftStickPress",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Camera",
+            "id": "1133eda7-c637-4a94-afae-39294300662e",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "c38feedf-94f2-4d56-bce1-4e130a74d087",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FocalView",
+                    "type": "PassThrough",
+                    "id": "948450aa-9c9c-45a5-ac33-4d299c3ed36d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1a63c90f-4ac9-4a76-9cc1-6f58e14adbba",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=15,y=15)",
+                    "groups": "Keyboard & Mouse",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae2c4d4b-11f0-46ff-aafd-47e319677579",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone,ScaleVector2(x=50,y=50)",
+                    "groups": "Gamepad",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4ee5f716-d59a-44e8-a450-38a331bda33f",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard & Mouse",
+                    "action": "FocalView",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
