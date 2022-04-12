@@ -11,7 +11,8 @@
                     "id": "fd2f9fb5-7c29-4344-aeeb-563d964354bd",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "WASD",
@@ -19,7 +20,8 @@
                     "id": "b74ebc2e-900c-4ae8-b1f5-52b4385666f4",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Sprint",
@@ -27,7 +29,8 @@
                     "id": "ed9afe89-a7a2-4aa9-b09e-48304fc04be2",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "Press(behavior=2)"
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -153,7 +156,8 @@
                     "id": "c38feedf-94f2-4d56-bce1-4e130a74d087",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "FocalView",
@@ -161,7 +165,8 @@
                     "id": "948450aa-9c9c-45a5-ac33-4d299c3ed36d",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     //public GameObject Player;
     [SerializeField] bool lockCurser = true;
+    public static bool IsFirstPActive;
+    public static bool IsThirdPActive;
 
     private void Awake()
     {
@@ -34,6 +36,20 @@ public class GameManager : MonoBehaviour
             Debug.Log("<color=cyan>No gamepads detected</color>");
 
         }
+
+        /*if (FirstPersonController.IsFirstPerson == true)
+        {
+
+            IsFirstPActive = true;
+            IsThirdPActive = false;
+
+        } else if (ThirdPersonController.IsThirdPerson == true)
+        {
+
+            IsThirdPActive = true;
+            IsFirstPActive = false;
+
+        }*/
 
     }
 

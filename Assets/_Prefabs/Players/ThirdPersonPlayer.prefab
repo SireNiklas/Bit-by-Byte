@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 1554258110353942802}
   - component: {fileID: 1554258110353942803}
   - component: {fileID: 1554258110353942806}
+  - component: {fileID: 8366717361585642181}
   - component: {fileID: 1554258110353942792}
   m_Layer: 0
   m_Name: ThirdPersonPlayer
@@ -214,6 +215,21 @@ MonoBehaviour:
   regenRate: 0.01
   thridPCam: {fileID: 0}
   thridPUI: {fileID: 0}
+--- !u!114 &8366717361585642181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554258110353942801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfba1a2194a0094d8bb26507517a070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 0
+  playerJumpHeight: 0
+  isRunning: 0
 --- !u!114 &1554258110353942792
 MonoBehaviour:
   m_ObjectHideFlags: 0
