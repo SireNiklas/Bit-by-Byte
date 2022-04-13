@@ -1,8 +1,4 @@
-using System;
-using Cinemachine;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
 
 public class ThirdPerson : MonoBehaviour
 {
@@ -16,8 +12,7 @@ public class ThirdPerson : MonoBehaviour
     private void Awake()
     {
 
-        Debug.Log(
-            "<color=lime><b>Third Person Controller Script</b> | <i>Assets/Scripts/Player/ThirdPersonController.cs</i> | Loaded and Initiated.</color>");
+        Debug.Log("<color=lime><b>Third Person Controller Script</b> | <i>Assets/Scripts/Player/ThirdPersonController.cs</i> | Loaded and Initiated.</color>");
         
         cameraTransform = Camera.main.transform;
 

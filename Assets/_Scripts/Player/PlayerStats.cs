@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
     private void Awake()
     {
         _playermovementcontroller = GetComponent<PlayerMovementController>();
-        _hudController = GameObject.Find("FirstPHud").GetComponent<HUDController>();
+        _hudController = GameObject.Find("ThirdPHud").GetComponent<HUDController>();
         
         InvokeRepeating("Regenerate", 0.0f, regenRate);
 
