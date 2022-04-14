@@ -3,18 +3,18 @@ using UnityEngine;
 public class ThirdPerson : MonoBehaviour
 {
 
-    [SerializeField] private float playerRotation;
+    [SerializeField] private float playerrotation = 27;
 
-    private Vector3 lastPos;
+    private Vector3 _lastPos;
 
-    private Transform cameraTransform;
+    private Transform _cameratransform;
 
     private void Awake()
     {
 
         Debug.Log("<color=lime><b>Third Person Controller Script</b> | <i>Assets/Scripts/Player/ThirdPersonController.cs</i> | Loaded and Initiated.</color>");
         
-        cameraTransform = Camera.main.transform;
+        _cameratransform = Camera.main.transform;
 
     }
 
@@ -30,16 +30,16 @@ public class ThirdPerson : MonoBehaviour
         // Rotate camera relative to Player.
         // Make ThirdCamMaster get World Transform
 
-        if (lastPos.x != transform.position.x && lastPos.z != transform.position.z)
+        if (_lastPos.x != transform.position.x && _lastPos.z != transform.position.z)
         {
             // Add Character (look) Rotation dictated by WASD keypress.
             
-            Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, playerRotation * Time.deltaTime);
+            Quaternion targetRotation = Quaternion.Euler(0, _cameratransform.transform.eulerAngles.y, 0);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, playerrotation * Time.deltaTime);
         }
 
-        lastPos.x = transform.position.x;
-        lastPos.z = transform.position.z;
+        _lastPos.x = transform.position.x;
+        _lastPos.z = transform.position.z;
 
         //transform.rotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
 

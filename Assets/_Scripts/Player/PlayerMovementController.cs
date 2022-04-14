@@ -6,22 +6,24 @@ public class PlayerMovementController : MonoBehaviour
 {
     
     private CharacterController _charController;
-    private PlayerControls playerControls;
+    private PlayerControls _playercontrols;
 
     PlayerStats _playerStats;
     
-    [SerializeField] private float playerSpeed;
-    [SerializeField] private float playerJumpHeight;
+    [SerializeField] private float _playerspeed = 5;
+    [SerializeField] private float _playerjumpheight = 5;
     
-    public int playerStamina = 1000;
+    public int playerstamina = 1000;
     
+
     private Vector3 _playerMovement;
-    private Vector3 lastPos;
+
+    [SerializeField] private float playerRotation;
     
     [SerializeField] public bool isRunning;
 
-    private Transform cameraTransform;
-
+    private Transform _cameratransform;
+    
     private void Awake()
     {
 
@@ -29,16 +31,15 @@ public class PlayerMovementController : MonoBehaviour
             "<color=lime><b>Player Movement Controller Script</b> | <i>Assets/Scripts/Player/PlayerMovementController.cs</i> | Loaded and Initiated.</color>");
         _charController = GetComponent<CharacterController>();
         _playerStats = GetComponent<PlayerStats>();
-        //_playerStats = GetComponent<PlayerStatsHandler>().PlayerStaminaHandler();
-        
-        cameraTransform = Camera.main.transform;
 
-        playerControls = new PlayerControls();
-        playerControls.Movement.Enable();
-        playerControls.Movement.Jump.performed += MovementJump;
-        playerControls.Movement.WASD.performed += MovementWASD;
-        playerControls.Movement.Sprint.started += MovementSprint;
-        playerControls.Movement.Sprint.canceled += MovementSprint;
+        _cameratransform = Camera.main.transform;
+
+        _playercontrols = new PlayerControls();
+        _playercontrols.Movement.Enable();
+        _playercontrols.Movement.Jump.performed += MovementJump;
+        _playercontrols.Movement.WASD.performed += MovementWASD;
+        _playercontrols.Movement.Sprint.started += MovementSprint;
+        _playercontrols.Movement.Sprint.canceled += MovementSprint;
         
     }
 
@@ -49,15 +50,15 @@ public class PlayerMovementController : MonoBehaviour
 
     private void MovementSprint(InputAction.CallbackContext context)
     {
-        if (!isRunning && context.started && playerStamina > 0)
+        if (!isRunning && context.started && playerstamina > 0)
         {
-            playerSpeed = playerSpeed * 2f;
+            _playerspeed = _playerspeed *= 2f;
             isRunning = true;
-            
+
         } else if (isRunning && context.canceled)
         {
 
-            playerSpeed = 10f;
+            _playerspeed = _playerspeed /=2;
             isRunning = false;
             
         }
@@ -74,10 +75,10 @@ public class PlayerMovementController : MonoBehaviour
 
         }
         
-        if (isRunning && isRunning && playerStamina < 1)
+        if (isRunning && isRunning && playerstamina < 1)
         {
             
-            playerSpeed = 10f;
+            _playerspeed = _playerspeed /= 2f;
             isRunning = false;
             
         }
@@ -89,7 +90,7 @@ public class PlayerMovementController : MonoBehaviour
         if (_charController.isGrounded)
         {
 
-            _playerMovement.y = playerJumpHeight;
+            _playerMovement.y = _playerjumpheight;
         }
     }
     
@@ -100,6 +101,51 @@ public class PlayerMovementController : MonoBehaviour
         SprintHandler();
 
     }
+
+    /*   private void LateUpdate()
+   {
+       PlayerRotation();
+   }
+
+    private void PlayerRotation()
+   {
+
+       if (_firstpcam.activeSelf)
+       {
+           // Rotate camera relative to Player.
+           // Make ThirdCamMaster get World Transform
+
+           //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+           transform.rotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+
+       } else if (_thirdpcam.activeSelf) 
+       {
+
+           if (lastPos.x != transform.position.x && lastPos.z != transform.position.z)
+           {
+               // Add Character (look) Rotation dictated by WASD keypress.
+
+               Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+               transform.rotation =
+                   Quaternion.Slerp(transform.rotation, targetRotation, playerRotation * Time.deltaTime);
+           }
+
+           lastPos.x = transform.position.x;
+           lastPos.z = transform.position.z;
+
+       }
+
+       //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+       //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed);
+
+       //Transform.rotation = Quaternion.LookRotation(WASD_movement);
+       //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(gameObject.transform.forward), 0.15F);
+
+       //Debug.Log("<color=cyan>Target Rotation</color>: <color=cyan>" + targetRotation + "</color>");
+
+       // WASD Rotates character.- TO DO.
+
+   }*/
     
     private void PlayerMovement()
     {
@@ -110,15 +156,15 @@ public class PlayerMovementController : MonoBehaviour
          */
         
         // WASD Movement section.
-        Vector2 inputVector = playerControls.Movement.WASD.ReadValue<Vector2>();
+        Vector2 inputVector = _playercontrols.Movement.WASD.ReadValue<Vector2>();
         Vector3 WASD_movement = new Vector3(inputVector.x, 0, inputVector.y);
         // Rename WASD_movement - to something.
         
         // Move camera relative to Player.
-        WASD_movement = WASD_movement.z * cameraTransform.forward.normalized + WASD_movement.x * transform.right.normalized;
+        WASD_movement = WASD_movement.z * _cameratransform.forward.normalized + WASD_movement.x * transform.right.normalized;
         WASD_movement.y = 0f;
 
-        _charController.Move(WASD_movement * Time.deltaTime * playerSpeed);
+        _charController.Move(WASD_movement * Time.deltaTime * _playerspeed);
         
         //Debug.Log("<color=cyan>Mouse Position: <b>" + Input.mousePosition + "</b></color>");
         

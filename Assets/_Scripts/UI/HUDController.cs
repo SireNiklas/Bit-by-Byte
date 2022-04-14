@@ -4,52 +4,45 @@ using TMPro;
 
 public class HUDController : MonoBehaviour
 {
-
-    public GameObject Player;
-    public TextMeshProUGUI debugLog;
-    
     public Slider healthBar;
     public Slider staminaBar;
 
-    PlayerMovementController _playermovementcontroller;
+    //PlayerMovementController _playermovementcontroller;
     private PlayerStats _playerStats;
 
     private int _playerStamina;
     //private bool _isRunning;
 
-    public Transform mLookAt;
-    private Transform localTransform;
+    private Transform _lookat;
+    private Transform _localtransfrom;
 
     private void Awake()
     {
 
         Debug.Log("<color=lime><b>HUD Controller Script</b> | <i>Assets/Scripts/Manager/HUDManager.cs</i> | Loaded and Initiated.</color>");
-        _playermovementcontroller = GetComponent<PlayerMovementController>();
-        _playerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
-        localTransform = GetComponent<Transform>();
+        //_playermovementcontroller = GetComponent<PlayerMovementController>();
+        _playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
+        _localtransfrom = GetComponent<Transform>();
+
+        _lookat = Camera.main.transform;
 
     }
     
     void Update()
     {
 
-        if (mLookAt)
+        if (_lookat)
         {
             
-            localTransform.LookAt(2 * localTransform.position - mLookAt.position);
+            _localtransfrom.LookAt(2 * _localtransfrom.position - _lookat.position);
             
         }
-
-        //debugLog.text = Player.transform.position.ToString();
-        //healthStat.text = PlayerMovementController.playerHealth.ToString();
-        //healthBar.value = PlayerMovementController.playerHealth;
-        //staminaStat.text = PlayerMovementController.playerStamina.ToString();
     }
 
     // Player stam modifed and now displayed.
     
-    public void PlayerStatUpdater()
+    public void PlayerStatsUpdater()
     { 
-        staminaBar.value = _playerStats.playerStaminaStat;
+        staminaBar.value = _playerStats.playerstamina;
     }
 }

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FirstPerson : MonoBehaviour
 {
-    private Transform cameraTransform;
+    private Transform _cameratransform;
 
     private void Awake()
     {
@@ -10,7 +10,7 @@ public class FirstPerson : MonoBehaviour
         Debug.Log(
             "<color=lime><b>Third Person Controller Script</b> | <i>Assets/Scripts/Player/ThirdPersonController.cs</i> | Loaded and Initiated.</color>");
         
-        cameraTransform = Camera.main.transform;
+        _cameratransform = Camera.main.transform;
     }
 
     public void Start()
@@ -19,7 +19,7 @@ public class FirstPerson : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         
         PlayerRotation();
@@ -32,7 +32,7 @@ public class FirstPerson : MonoBehaviour
         // Make ThirdCamMaster get World Transform
 
         //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
-        transform.rotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+        transform.rotation = Quaternion.Euler(0, _cameratransform.transform.eulerAngles.y, 0);
 
         //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
         //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed);

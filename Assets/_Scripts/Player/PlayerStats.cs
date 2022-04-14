@@ -4,41 +4,38 @@ public class PlayerStats : MonoBehaviour
 {
 
     PlayerMovementController _playermovementcontroller;
-    public int playerStaminaStat;
-    [SerializeField] float regenRate = 0.1f;
+    public int playerstamina;
+    [SerializeField] private float regenrate = 0.01f;
     
     private HUDController _hudController;
 
     private void Awake()
     {
         _playermovementcontroller = GetComponent<PlayerMovementController>();
-        _hudController = GameObject.Find("ThirdPHud").GetComponent<HUDController>();
+        _hudController = GameObject.FindWithTag("PlayerHud").GetComponent<HUDController>();
         
-        InvokeRepeating("Regenerate", 0.0f, regenRate);
+        InvokeRepeating("Regenerate", 0.0f, regenrate);
 
     }
 
     // Player Check passed, and stamina now being modifed.
-    
-    
+
     public void Regenerate()
     { 
-        if (_playermovementcontroller.playerStamina < 1000) 
-            _playermovementcontroller.playerStamina++;
+        if (_playermovementcontroller.playerstamina < 1000) 
+            _playermovementcontroller.playerstamina++;
 
-        playerStaminaStat = _playermovementcontroller.playerStamina;
-        _hudController.PlayerStatUpdater();
+        playerstamina = _playermovementcontroller.playerstamina;
+        _hudController.PlayerStatsUpdater();
     }
     
     public void PlayerStaminaHandler()
     {
-        
-            Debug.Log("Running in Stats Handler");
-            _playermovementcontroller.playerStamina -= 1;
+        _playermovementcontroller.playerstamina -= 1;
 
-            playerStaminaStat = _playermovementcontroller.playerStamina;
+        playerstamina = _playermovementcontroller.playerstamina;
 
-            _hudController.PlayerStatUpdater();
+        _hudController.PlayerStatsUpdater();
 
     }
 
