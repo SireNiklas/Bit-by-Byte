@@ -6,62 +6,997 @@
   <component name="ChangeListManager">
     <list default="true" id="0b888909-7fba-48f8-bad0-97be304a47c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_Textures.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_Textures.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_TexturesSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/Demo_TexturesSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/New Terrain 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Demo/New Terrain 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_11.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_11.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_12.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_12.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_13.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_13.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_14.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_14.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_15.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_15.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Bridges/PTK_Bridge_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Collectables/PTK_Collectable_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Edge_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Chest.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Chest.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Pool.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Pool.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cubes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cubes/PTK_Cube_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cubes/PTK_Cube_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cubes/PTK_Cube_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cubes/PTK_Cube_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_DoubleDoor_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_DoubleDoor_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_RevolvingDoor_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_RevolvingDoor_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_ElevatorFrame.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_ElevatorFrame.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_2Floors.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_2Floors.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_3Floors.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator_3Floors.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/PointsOfInterest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/PointsOfInterest/PTK_ActionField.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/PointsOfInterest/PTK_ActionField.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/PointsOfInterest/PTK_Exclamation.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/PointsOfInterest/PTK_Exclamation.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Large.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Medium.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Medium.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Bridges/PTK_Bridge_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_1_red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Collectables/PTK_Collectable_2_red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Edge_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Columns/PTK_Column_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Containers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Containers/PTK_Chest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Containers/PTK_Chest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Containers/PTK_Pool.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Containers/PTK_Pool.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cubes/PTK_Cube_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Cuboids/PTK_Cuboid_5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Door_Medium_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_DoubleDoor_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_DoubleDoor_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_RevolvingDoor_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_RevolvingDoor_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_SlidingDoor_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors/PTK_Tunnel_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Elevators.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Elevators/PTK_Elevator_2Floors.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Elevators/PTK_Elevator_2Floors.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Elevators/PTK_Elevator_3Floors.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Elevators/PTK_Elevator_3Floors.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ladders/PTK_Ladder_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps/PTK_Lamp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Lamps/PTK_Lamp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PTK_Tunnel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PTK_Tunnel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_ActionField_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_green.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_green.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/PointsOfInterest/PTK_Exclamation_red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Ramps/PTK_Ramp_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Large.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Large.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Stairs/PTK_Stairs_Small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Large_5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Medium_5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Walls/PTK_Wall_Small_5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_1024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_2_1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_2_1024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_2_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_2_512.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_512.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/Proto_grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_interaction4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWall_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWall_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Ground_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Ground_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Hammer_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Hammer_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/HardHat_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/HardHat_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Jigsaw_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Jigsaw_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/LightBulb_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/LightBulb_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Liquid_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Liquid_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/New Terrain Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/New Terrain Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/OBS_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/OBS_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintBrush_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintBrush_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintLabel_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintLabel_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Transparent.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Transparent.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_White_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_White_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Strap_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Strap_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Stud_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Stud_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Stud.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Stud.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench_Low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workbench_Low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workshop_Set.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/Workshop_Set.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/brush_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/brush_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/hammer_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/hammer_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/jigsaw_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/jigsaw_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/magneticlevel_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/magneticlevel_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/paintbucket_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/paintbucket_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetygoggles_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetygoggles_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetyhat_low.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/safetyhat_low.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/small_plane.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Models/small_plane.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Construction Light Low.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Construction Light Low.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Paint Supplies.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Paint Supplies.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Props.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Props.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workshop Set.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Prefabs/Workshop Set.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerInputActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerInputActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/d1c3109bdb54ad54c8a2b2838528e640.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/d1c3109bdb54ad54c8a2b2838528e640.userdata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/JumpSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/JumpSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Walls.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test SceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test SceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/SpeedTutor_TutorialScene_Free_Doc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/SpeedTutor_TutorialScene_Free_Doc.pdf.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/World.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/World.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/HUDController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/HUDController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Skybox_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Materials/Skybox_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/FirstPersonPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/FirstPersonPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/FirstPersonPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/ThirdPersonPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Old/ThirdPersonPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/ThirdPersonPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Menu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/SampleSceneLightingSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/SampleSceneLightingSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/World.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/World/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/World/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MenuManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/MenuManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/HUDController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/HUDController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_proto_35cf3da06f5211986.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_proto_35cf3da06f5211986.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.001.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.001.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.004.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.004.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.005.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.005.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.006.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.006.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.007.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.007.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.008.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.008.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.009.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.009.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.010.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.010.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.011.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.011.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.012.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.012.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.013.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.013.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.014.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.014.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.015.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.015.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.016.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.016.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.018.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.018.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.019.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.019.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.020.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.020.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.021.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.021.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.022.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.022.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.023.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.023.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.024.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.024.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.026.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.026.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.027.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.027.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.028.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.028.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.030.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.030.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.001.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.001.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Plane 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Plane 1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Plane.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Plane.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.001.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.001.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.002.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.002.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.003.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.003.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Source Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Source Files/prototype textures.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Source Files/prototype textures.svg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1841.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1841.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1888.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1888.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/prototype.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/prototype.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1630.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1630.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1661.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1661.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1732.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25191.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25191.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2658.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2658.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3262.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3262.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3309.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3309.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,30 +1014,58 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/556aa4c8e9a0481fba05363c5e0bba1917a00/1a/12d77d25/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Network/PlayerMananger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Network/PlayersManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Network/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Network/NetworkPlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ThirdPerson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.7/Runtime/Core/NetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="26x4X3CcvT5atDbhErcmxcUZheX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Nicho/OneDrive/Documents/GitHub/Bit-by-Byte/Assets/Scripts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "rider.run.widget.enabled.cache": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\Bit by Byte.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Nicho\OneDrive\Documents\GitHub\Bit-by-Byte\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Nicho\OneDrive\Documents\GitHub\Bit-by-Byte -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Nicho\OneDrive\Documents\GitHub\Bit-by-Byte" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -162,6 +1125,26 @@
       <workItem from="1649821678828" duration="630000" />
       <workItem from="1649867906645" duration="8001000" />
       <workItem from="1649954568297" duration="2755000" />
+      <workItem from="1649966605862" duration="403000" />
+      <workItem from="1649979929601" duration="8701000" />
+      <workItem from="1650034753534" duration="5310000" />
+      <workItem from="1650042922265" duration="18891000" />
+      <workItem from="1650083238116" duration="3045000" />
+      <workItem from="1650133457670" duration="6795000" />
+      <workItem from="1650158951737" duration="3316000" />
+      <workItem from="1650163305503" duration="2536000" />
+      <workItem from="1650203779411" duration="17745000" />
+      <workItem from="1650291181993" duration="2257000" />
+      <workItem from="1650308171907" duration="4946000" />
+      <workItem from="1650313215561" duration="794000" />
+      <workItem from="1650413554260" duration="6568000" />
+      <workItem from="1650481121394" duration="4759000" />
+      <workItem from="1650490759069" duration="5255000" />
+      <workItem from="1650676732634" duration="411000" />
+      <workItem from="1650856954900" duration="5441000" />
+      <workItem from="1650929762365" duration="966000" />
+      <workItem from="1650931906649" duration="4478000" />
+      <workItem from="1650984674340" duration="8511000" />
     </task>
     <servers />
   </component>
@@ -171,6 +1154,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
