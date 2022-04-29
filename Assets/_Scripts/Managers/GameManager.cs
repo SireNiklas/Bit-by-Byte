@@ -11,12 +11,15 @@ public class GameManager : MonoBehaviour
     public static bool IsFirstPActive;
     public static bool IsThirdPActive;
 
+    [SerializeField]private GameObject _player;
+
     private void Awake()
     {
 
         Debug.Log("<color=lime><b>Game Manager Script</b> | <i>Assets/Scripts/Player/PlayerMovement.cs</i> | Loaded and Initiated.</color>");
-        //Instantiate(Player, transform.position, transform.rotation);
 
+        GameObject _Player = Instantiate(_player, transform.position, transform.rotation);
+        
         if (lockCurser)
         {
 

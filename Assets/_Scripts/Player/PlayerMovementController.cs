@@ -1,9 +1,11 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Cinemachine;
 
 public class PlayerMovementController : MonoBehaviour
 {
+    private CameraFollow _cameraFollow;
     
     private CharacterController _charController;
     private PlayerControls _playercontrols;
@@ -12,7 +14,8 @@ public class PlayerMovementController : MonoBehaviour
     
     [SerializeField] private float _playerspeed = 5;
     [SerializeField] private float _playerjumpheight = 5;
-    
+    [SerializeField] private float _playerRotation = 27;
+
     public int playerstamina = 1000;
     
 
@@ -22,8 +25,17 @@ public class PlayerMovementController : MonoBehaviour
     
     [SerializeField] public bool isRunning;
 
+    [SerializeField] private bool _isFirstPerson = true;
+    [SerializeField] private bool _isThirdPerson;
+
     private Transform _cameratransform;
     
+    private Vector3 _lastPos;
+
+    public Transform PlayerView;
+    
+    private CinemachineVirtualCamera _cinemachineVirtualCamera;
+
     private void Awake()
     {
 
@@ -31,15 +43,33 @@ public class PlayerMovementController : MonoBehaviour
             "<color=lime><b>Player Movement Controller Script</b> | <i>Assets/Scripts/Player/PlayerMovementController.cs</i> | Loaded and Initiated.</color>");
         _charController = GetComponent<CharacterController>();
         _playerStats = GetComponent<PlayerStats>();
-
-        _cameratransform = Camera.main.transform;
-
+        
         _playercontrols = new PlayerControls();
         _playercontrols.Movement.Enable();
         _playercontrols.Movement.Jump.performed += MovementJump;
         _playercontrols.Movement.WASD.performed += MovementWASD;
         _playercontrols.Movement.Sprint.started += MovementSprint;
         _playercontrols.Movement.Sprint.canceled += MovementSprint;
+
+        if (_isFirstPerson)
+        {
+            Camera.main.GetComponent<CinemachineVirtualCamera>().enabled = true;
+            Camera.main.GetComponent<CameraFollow>().enabled = true;
+            CameraFollow.Instance.CameraFirstPerson(transform.Find("FirstPersonCameraLookTarget"));
+        }
+        
+        _cameratransform = Camera.main.transform;
+
+        // if (_isFirstPerson)
+        // {
+        //     
+        //     Debug.Log("<color=red>CAMERA DURING VIRTUAL!</color>");
+        //
+        // } else if (_isThirdPerson)
+        // {
+        //     CameraFollow.Instance.CameraThirdPerson(transform.Find("ThirdPersonCameraLookTarget"), transform.Find("ThirdPersonCameraLookTarget"));
+        //
+        // }
         
     }
 
@@ -99,7 +129,12 @@ public class PlayerMovementController : MonoBehaviour
         
         PlayerMovement();
         SprintHandler();
+        PlayerRotation();
 
+    }
+
+    private void LateUpdate()
+    {
     }
 
     /*   private void LateUpdate()
@@ -146,6 +181,44 @@ public class PlayerMovementController : MonoBehaviour
        // WASD Rotates character.- TO DO.
 
    }*/
+    
+    private void PlayerRotation()
+    { 
+        // Rotate camera relative to Player.
+        // Make ThirdCamMaster get World Transform
+
+        //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+        if (_isFirstPerson)
+        {
+
+            transform.rotation = Quaternion.Euler(0, _cameratransform.transform.eulerAngles.y, 0);
+        } else if (_isThirdPerson)
+        {
+            
+            if (_lastPos.x != transform.position.x && _lastPos.z != transform.position.z)
+            {
+                // Add Character (look) Rotation dictated by WASD keypress.
+            
+                Quaternion targetRotation = Quaternion.Euler(0, _cameratransform.transform.eulerAngles.y, 0);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _playerRotation * Time.deltaTime);
+            }
+
+            _lastPos.x = transform.position.x;
+            _lastPos.z = transform.position.z;
+            
+        }
+        
+        //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed);
+
+        //Transform.rotation = Quaternion.LookRotation(WASD_movement);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(gameObject.transform.forward), 0.15F);
+
+        //Debug.Log("<color=cyan>Target Rotation</color>: <color=cyan>" + targetRotation + "</color>");
+
+        // WASD Rotates character.- TO DO.
+
+    }
     
     private void PlayerMovement()
     {

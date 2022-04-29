@@ -3,7 +3,7 @@ using UnityEngine;
 public class ThirdPerson : MonoBehaviour
 {
 
-    [SerializeField] private float playerrotation = 27;
+    [SerializeField] private float _playerRotation = 27;
 
     private Vector3 _lastPos;
 
@@ -35,7 +35,7 @@ public class ThirdPerson : MonoBehaviour
             // Add Character (look) Rotation dictated by WASD keypress.
             
             Quaternion targetRotation = Quaternion.Euler(0, _cameratransform.transform.eulerAngles.y, 0);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, playerrotation * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _playerRotation * Time.deltaTime);
         }
 
         _lastPos.x = transform.position.x;
