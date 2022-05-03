@@ -542,6 +542,7 @@ GameObject:
   - component: {fileID: 1179126496480793433}
   - component: {fileID: 1292759186898065569}
   - component: {fileID: 7728578250583170322}
+  - component: {fileID: -8452627039029731537}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -654,9 +655,9 @@ MonoBehaviour:
   playerstamina: 1000
   playerRotation: 0
   isRunning: 0
-  _isFirstPerson: 1
-  _isThirdPerson: 0
-  PlayerView: {fileID: 8642272131360829871}
+  _isFirstPerson: 0
+  _isThirdPerson: 1
+  PlayerSpawns: []
 --- !u!114 &1292759186898065569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,11 +729,29 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 948450aa-9c9c-45a5-ac33-4d299c3ed36d
     m_ActionName: Camera/FocalView[/Mouse/scroll/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 10cb5a54-c120-46a2-8a8f-97368a565607
+    m_ActionName: Actions/Shoot[/Mouse/leftButton,/XInputControllerWindows/rightTrigger]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard & Mouse
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &-8452627039029731537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4343545914125042260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ff450f0092a5c4eadc1508eced5763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectilePrefab: {fileID: 2493303656851293860, guid: 6163b3dc9a495df4bb56a35be336fc2e, type: 3}
+  timeBetweenShots: 0.3333
 --- !u!1 &4654314594657932222
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +839,7 @@ GameObject:
   - component: {fileID: 2999859342743935629}
   - component: {fileID: 8766638770725003511}
   - component: {fileID: 1125751959036374525}
+  - component: {fileID: 2020367991456521806}
   m_Layer: 5
   m_Name: Reticle
   m_TagString: Untagged
@@ -885,6 +905,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2020367991456521806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6305394347553033445}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ff450f0092a5c4eadc1508eced5763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectilePrefab: {fileID: 0}
+  timeBetweenShots: 0.3333
 --- !u!1 &6806730111215742293
 GameObject:
   m_ObjectHideFlags: 0

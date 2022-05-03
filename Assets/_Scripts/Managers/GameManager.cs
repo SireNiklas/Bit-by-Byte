@@ -13,12 +13,18 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]private GameObject _player;
 
+    [SerializeField] List<GameObject> PlayerSpawns;
+
     private void Awake()
     {
 
-        Debug.Log("<color=lime><b>Game Manager Script</b> | <i>Assets/Scripts/Player/PlayerMovement.cs</i> | Loaded and Initiated.</color>");
-
-        GameObject _Player = Instantiate(_player, transform.position, transform.rotation);
+        //Debugger.Instance.LogInfo("<color=lime><b>Game Manager Script</b> | <i>Assets/Scripts/Player/PlayerMovement.cs</i> | Loaded and Initiated.</color>");
+        
+        PlayerSpawns.AddRange(GameObject.FindGameObjectsWithTag("PlayerSpawn"));
+        
+        GameObject _Player = Instantiate(_player, PlayerSpawns[Random.Range(0, PlayerSpawns.Count)].transform.position, transform.rotation);
+        
+        //Debugger.Instance.LogInfo("Player Spawned!");
         
         if (lockCurser)
         {

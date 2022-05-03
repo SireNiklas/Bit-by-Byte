@@ -8,7 +8,7 @@ public class CameraFollow : Singleton<CameraFollow>
 {
     
     CinemachineVirtualCamera _cinemachineVirtualCamera;
-    private CinemachineFreeLook _cinemachineFreeLook;
+    CinemachineFreeLook _cinemachineFreeLook;
 
     private void Awake()
     {
@@ -27,16 +27,15 @@ public class CameraFollow : Singleton<CameraFollow>
     public void CameraFirstPerson(Transform followTransform)
     {
         
+        Camera.main.GetComponent<CinemachineVirtualCamera>().enabled = true;
         _cinemachineVirtualCamera.Follow = followTransform;
         
     }
     
     public void CameraThirdPerson(Transform followTransform, Transform lookAtTransform)
     {
-
-        if (!_cinemachineFreeLook) return;
         
-        _cinemachineFreeLook.enabled = true;
+        Camera.main.GetComponent<CinemachineFreeLook>().enabled = true;
         _cinemachineFreeLook.Follow = followTransform;
         _cinemachineFreeLook.LookAt = lookAtTransform;
 
