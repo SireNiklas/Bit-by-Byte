@@ -6,60 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="0b888909-7fba-48f8-bad0-97be304a47c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/d1c3109bdb54ad54c8a2b2838528e640.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/d1c3109bdb54ad54c8a2b2838528e640.userdata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Cube.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Cube.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Walls.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Material/M_Tileable_Walls.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Centre Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Centre Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Floor1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Floor1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Large_Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Large_Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Small_Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Small_Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Wall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Prefabs/Wall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-1.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test Scene/ReflectionProbe-1.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test SceneSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Scenes/SpeedTutor Test SceneSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/SpeedTutor_TutorialScene_Free_Doc.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/SpeedTutor_TutorialScene_Free_Doc.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Textures/Gray_Tileable_Demo_Texture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpeedTutor - Tutorial Scene - FREE/Textures/Gray_Tileable_Demo_Texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days ExampleSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days ExampleSettings.lighting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Projectile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/CameraFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/CameraFollow.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/FirstPerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovementController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerStats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/ThirdPerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ProjectileTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ProjectileTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/RaycastTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,10 +45,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332c534a8a44623b2e5cc943a0b790e157400/ba/db25a496/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/556aa4c8e9a0481fba05363c5e0bba1917a00/1a/12d77d25/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Core/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ProjectileTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -195,6 +160,9 @@
       <workItem from="1651437991916" duration="1836000" />
       <workItem from="1651499023906" duration="10624000" />
       <workItem from="1651542747527" duration="4957000" />
+      <workItem from="1651599779116" duration="7769000" />
+      <workItem from="1651627734620" duration="3406000" />
+      <workItem from="1651670398044" duration="4335000" />
     </task>
     <servers />
   </component>

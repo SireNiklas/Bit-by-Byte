@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
-
+    
+    CinemachineVirtualCamera _cinemachineVirtualCamera;
+    
     //public GameObject Player;
     [SerializeField] bool lockCurser = true;
     public static bool IsFirstPActive;
@@ -14,6 +17,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]private GameObject _player;
 
     [SerializeField] List<GameObject> PlayerSpawns;
+
+    [SerializeField] private GameObject _sun;
 
     private void Awake()
     {
@@ -46,6 +51,8 @@ public class GameManager : MonoBehaviour
 
         }
 
+        _cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
+
         /*if (FirstPersonController.IsFirstPerson == true)
         {
 
@@ -65,15 +72,21 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-
+        
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = false;
+
+        }
 
     }
 }
