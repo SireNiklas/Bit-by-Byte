@@ -265,6 +265,34 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Debug"",
+            ""id"": ""8930dafb-f93e-4c67-9503-e6814c2ffaf0"",
+            ""actions"": [
+                {
+                    ""name"": ""ToggleDebugConsole"",
+                    ""type"": ""Button"",
+                    ""id"": ""ba9a7c32-351a-4f1a-be71-b982c6555fab"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""8f27a4d0-926a-4b83-b1e2-a93f0821f24a"",
+                    ""path"": ""<Keyboard>/backquote"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse"",
+                    ""action"": ""ToggleDebugConsole"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -309,6 +337,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         // Actions
         m_Actions = asset.FindActionMap("Actions", throwIfNotFound: true);
         m_Actions_Shoot = m_Actions.FindAction("Shoot", throwIfNotFound: true);
+        // Debug
+        m_Debug = asset.FindActionMap("Debug", throwIfNotFound: true);
+        m_Debug_ToggleDebugConsole = m_Debug.FindAction("ToggleDebugConsole", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -487,6 +518,39 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         }
     }
     public ActionsActions @Actions => new ActionsActions(this);
+
+    // Debug
+    private readonly InputActionMap m_Debug;
+    private IDebugActions m_DebugActionsCallbackInterface;
+    private readonly InputAction m_Debug_ToggleDebugConsole;
+    public struct DebugActions
+    {
+        private @PlayerControls m_Wrapper;
+        public DebugActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @ToggleDebugConsole => m_Wrapper.m_Debug_ToggleDebugConsole;
+        public InputActionMap Get() { return m_Wrapper.m_Debug; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(DebugActions set) { return set.Get(); }
+        public void SetCallbacks(IDebugActions instance)
+        {
+            if (m_Wrapper.m_DebugActionsCallbackInterface != null)
+            {
+                @ToggleDebugConsole.started -= m_Wrapper.m_DebugActionsCallbackInterface.OnToggleDebugConsole;
+                @ToggleDebugConsole.performed -= m_Wrapper.m_DebugActionsCallbackInterface.OnToggleDebugConsole;
+                @ToggleDebugConsole.canceled -= m_Wrapper.m_DebugActionsCallbackInterface.OnToggleDebugConsole;
+            }
+            m_Wrapper.m_DebugActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @ToggleDebugConsole.started += instance.OnToggleDebugConsole;
+                @ToggleDebugConsole.performed += instance.OnToggleDebugConsole;
+                @ToggleDebugConsole.canceled += instance.OnToggleDebugConsole;
+            }
+        }
+    }
+    public DebugActions @Debug => new DebugActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -519,5 +583,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     public interface IActionsActions
     {
         void OnShoot(InputAction.CallbackContext context);
+    }
+    public interface IDebugActions
+    {
+        void OnToggleDebugConsole(InputAction.CallbackContext context);
     }
 }

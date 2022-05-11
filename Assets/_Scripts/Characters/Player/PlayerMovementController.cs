@@ -16,8 +16,9 @@ public class PlayerMovementController : MonoBehaviour
     PlayerStats _playerStats;
     
     [SerializeField] private float _playerspeed = 5;
-    [SerializeField] private float _playerjumpheight = 5;
+    [SerializeField] private float _playerjumpheight = 50;
     [SerializeField] private float _playerRotation = 27;
+    private const float _GRAVITY = -9.81f;
 
     public int playerstamina = 1000;
     
@@ -27,9 +28,6 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private float playerRotation;
     
     [SerializeField] public bool isRunning;
-
-    [SerializeField] private bool _isFirstPerson = true;
-    [SerializeField] private bool _isThirdPerson;
 
     private Transform _cameratransform;
     private Transform _cameraReference;
@@ -60,36 +58,17 @@ public class PlayerMovementController : MonoBehaviour
         _cameraReference = new GameObject().transform;
         _cameraReference.name = "Camera Reference";
 
-        // if (_isFirstPerson)
-        // {
-        //     
-        //     Debug.Log("<color=red>CAMERA DURING VIRTUAL!</color>");
-        //
-        // } else if (_isThirdPerson)
-        // {
-        //     CameraFollow.Instance.CameraThirdPerson(transform.Find("ThirdPersonCameraLookTarget"), transform.Find("ThirdPersonCameraLookTarget"));
-        //
-        // }
-
     }
 
     private void Start()
     {
 
         Camera.main.transform.position = transform.position;
-        
-        if (_isFirstPerson)
-        {
+
             Camera.main.GetComponent<CameraFollow>().enabled = true;
-            CameraFollow.Instance.CameraFirstPerson(transform.Find("FirstPersonCameraLookTarget"));
-        } else if (_isThirdPerson)
-        {
-            Camera.main.GetComponent<CameraFollow>().enabled = true;
-            CameraFollow.Instance.CameraThirdPerson(transform.Find("ThirdPersonCameraLookTarget"), transform.Find("ThirdPersonCameraLookTarget"));
-            
-        }
-        
-        _cameratransform = Camera.main.transform;
+            CameraFollow.Instance.CameraAttach(transform.Find("CameraLookTarget"), transform.Find("CameraLookTarget"));
+
+            _cameratransform = Camera.main.transform;
         
     }
 
@@ -98,7 +77,6 @@ public class PlayerMovementController : MonoBehaviour
         
         PlayerMovement();
         SprintHandler();
-        //PlayerRotation();
 
     }
 
@@ -111,12 +89,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void PlayerMovement()
     {
-        
-        /*
-         * Fix Player speed dictated by the Camera angle.
-         * Either Rotate player on A and D press, or animate a strafe.
-         */
-        
+
         // WASD Movement section.
         Vector2 inputVector = _playercontrols.Movement.WASD.ReadValue<Vector2>();
         Vector3 WASD_movement = new Vector3(inputVector.x, 0, inputVector.y);
@@ -128,62 +101,34 @@ public class PlayerMovementController : MonoBehaviour
 
         _charController.Move(WASD_movement * Time.deltaTime * _playerspeed);
         
-        //Debug.Log("<color=cyan>Mouse Position: <b>" + Input.mousePosition + "</b></color>");
-
         if (!_charController.isGrounded)
         {
             _playerMovement.y -= 9.81f * Time.deltaTime;
             _charController.Move(_playerMovement * Time.deltaTime);
         }
-        
-        // Debug.Log("<color=cyan> " + transform.position + " </color>");
-        
-        //Debug.Log(playerControls.Movement.WASD.ReadValue<Vector2>().normalized);
-        //Debug.Log(WASD_movement);   
-
     }
     
     private void PlayerRotation()
-    { 
-        // Rotate camera relative to Player.
-        // Make ThirdCamMaster get World Transform
-
-        //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
+    {
         _cameraReference.eulerAngles = new Vector3(0, _cameratransform.eulerAngles.y, 0);
-        
-        if (_isFirstPerson)
-        {
 
-            transform.rotation = Quaternion.Euler(0, _cameraReference.eulerAngles.y, 0);
-            
-        } else if (_isThirdPerson)
+        if (Time.deltaTime == 0)
         {
-            
+            return;
+        }
+
+        if (_lastPos.x != transform.position.x && _lastPos.z != transform.position.z || Input.GetKey(KeyCode.Mouse0)) 
+        {
             Quaternion targetRotation = Quaternion.Euler(0, _cameraReference.eulerAngles.y, 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, _playerRotation * Time.deltaTime);
-            
-            if (_lastPos.x != transform.position.x && _lastPos.z != transform.position.z)
-            {
-                // Add Character (look) Rotation dictated by WASD keypress.
-            }
-
-            _lastPos.x = transform.position.x;
-            _lastPos.z = transform.position.z;
-            
+                
         }
-        
-        //Quaternion targetRotation = Quaternion.Euler(0, cameraTransform.transform.eulerAngles.y, 0);
-        //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed);
 
-        //Transform.rotation = Quaternion.LookRotation(WASD_movement);
-        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(gameObject.transform.forward), 0.15F);
-
-        //Debug.Log("<color=cyan>Target Rotation</color>: <color=cyan>" + targetRotation + "</color>");
-
-        // WASD Rotates character.- TO DO.
-
+        _lastPos.x = transform.position.x;
+        _lastPos.z = transform.position.z;
+            
     }
-    
+
     private void MovementWASD(InputAction.CallbackContext context)
     {
 
