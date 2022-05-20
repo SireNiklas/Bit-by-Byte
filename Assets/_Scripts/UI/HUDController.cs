@@ -6,11 +6,12 @@ using Cinemachine;
 
 public class HUDController : MonoBehaviour
 {
-    CinemachineFreeLook _cinemachineFreeLook;
+    private CinemachineFreeLook _cinemachineFreeLook;
     
     public Slider healthBar;
     public Slider staminaBar;
-    public Slider Sense;
+
+    public Slider senseSlider;
 
     //PlayerMovementController _playermovementcontroller;
     private PlayerStats _playerStats;
@@ -29,6 +30,8 @@ public class HUDController : MonoBehaviour
         _playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
         _localtransfrom = GetComponent<Transform>();
 
+        //_cinemachineFreeLook = GetComponent<C>()
+        
         _lookat = Camera.main.transform;
 
     }
@@ -43,7 +46,6 @@ public class HUDController : MonoBehaviour
             
         }
         
-        //Sense.value = _cinemachineFreeLook.m_XAxis.m_MaxSpeed;
     }
 
     // Player stam modifed and now displayed.
@@ -51,5 +53,12 @@ public class HUDController : MonoBehaviour
     public void PlayerStatsUpdater()
     {
         staminaBar.value = _playerStats.playerstamina;
+    }
+
+    private void PlayerSense()
+    {
+        
+        
+        
     }
 }

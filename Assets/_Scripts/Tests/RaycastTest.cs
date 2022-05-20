@@ -53,7 +53,7 @@ public class RaycastTest : MonoBehaviour
 
         //}
 
-        if (Physics.Raycast(ray, out hit) && Input.GetKey(KeyCode.Mouse0) && Time.time >= timestamp && hit.collider.tag == "Enemy")
+        /*if (Physics.Raycast(ray, out hit) && Input.GetKey(KeyCode.Mouse0) && Time.time >= timestamp && hit.collider.tag == "Enemy")
         {
             
             Debug.Log("HIT!");
@@ -67,7 +67,7 @@ public class RaycastTest : MonoBehaviour
 
             //timestamp = Time.time + timeBetweenShots;
 
-        }
+        }*/
 
 
     }

@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using System.Security.Cryptography.Xml;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -18,6 +20,14 @@ public class DebugConsoleController : MonoBehaviour
     
     private float timestamp;
     public float timeBetweenShots = 0.3333f;  // Allow 3 shots per second
+
+    [SerializeField]
+    private GameObject _enemyPrefab;
+    
+    [SerializeField]
+    private TMP_InputField _textField;
+    
+    private string _inputText;
     
     private void Awake()
     {
@@ -40,6 +50,53 @@ public class DebugConsoleController : MonoBehaviour
         //if (EventSystem.current.IsPointerOverGameObject()) return;
 
     }
+
+    private void CMDInput()
+    {
+        
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            
+            _inputText = _textField.text;
+
+            string CMDPrefix = "/";
+            string CMDContent = "";
+            
+            int CMDArg = 0;
+            
+            var CMD = CMDPrefix + CMDContent + CMDArg;
+            
+            if (_inputText.StartsWith(CMDPrefix))
+            {
+
+                var CMDParse = Regex.Match(CMD, @"\d+$");
+
+                if (CMDParse.Success)
+                {
+                    
+                    Debug.Log(CMDParse);
+                    SpawnEnemy(CMDArg);
+
+                }
+                else
+                {
+                    
+                }
+
+                _textField.text = "";
+
+            }
+
+            _textField.text = "";
+
+        }
+        
+    }
+    
+    /*private int CMDParseInt(string CMD)
+    {
+        return;
+    }*/
 
     private void DebugConsoleToggle()
     {
@@ -75,4 +132,26 @@ public class DebugConsoleController : MonoBehaviour
         }
         
     }
+    
+    // COMMANDS FUNCTIONS:
+    
+    private void SpawnEnemy(int amount)
+    {
+
+        for (int i = 0; i < amount; i++)
+        {
+            GameObject _enemy = Instantiate(_enemyPrefab, new Vector3(0, 1, 0), transform.rotation);
+        }
+    }
+    
+    List<GameObject> enemies;
+    
+    private void KillEnemy()
+    {
+
+        enemies.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
+        enemies.ForEach(Destroy);
+
+    }
+    
 }

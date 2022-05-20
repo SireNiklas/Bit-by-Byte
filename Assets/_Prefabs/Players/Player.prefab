@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1540837401942804440}
   - component: {fileID: 3539921406957765144}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Sense
-  m_TagString: Untagged
+  m_TagString: PlayerSense
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1050, y: 558}
+  m_AnchoredPosition: {x: 765, y: 404}
   m_SizeDelta: {x: 360, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3539921406957765144
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 7462590520633019539}
   - component: {fileID: 408557123450101838}
   - component: {fileID: 7012885620522872125}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 2938814268373915969}
   - component: {fileID: 1645598060123647650}
   - component: {fileID: 7402751725245729343}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7735477426428540596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3335453063937944382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.216, z: 0.47}
+  m_LocalPosition: {x: 0.505, y: 0.216, z: 0.469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -283,7 +283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4492424999671906776}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 7851081233087610700}
   - component: {fileID: 440902219595213045}
   - component: {fileID: 6538185068625202921}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 7730497477407442242}
   - component: {fileID: 57814874886573321}
   - component: {fileID: 2470331852129777189}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: StaminaBarValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,8 +478,9 @@ GameObject:
   - component: {fileID: 1179126496480793433}
   - component: {fileID: 1292759186898065569}
   - component: {fileID: 7728578250583170322}
+  - component: {fileID: -8022847395411615122}
   - component: {fileID: 2886988600775585448}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -533,7 +534,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 12ad1df57a06abc4ab37ed5d6d2d5386, type: 2}
+  - {fileID: 9180892828007318148, guid: 021aa15729d7188418cd28d665274dfc, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -585,11 +586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bfba1a2194a0094d8bb26507517a070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerspeed: 5
-  _playerjumpheight: 5
+  _playerSpeed: 5
+  _playerJumpHeight: 5.7
   _playerRotation: 27
-  playerstamina: 1000
-  playerRotation: 0
+  playerStamina: 1000
   isRunning: 0
   PlayerSpawns: []
 --- !u!114 &1292759186898065569
@@ -606,6 +606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerstamina: 0
   regenrate: 0.01
+  _wasGrounded: 0
+  _grounded: 0
 --- !u!114 &7728578250583170322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,6 +678,18 @@ MonoBehaviour:
   m_DefaultActionMap: Movement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &-8022847395411615122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4343545914125042260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd311bfcbb0df134884687bc5fd48c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2886988600775585448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +707,7 @@ MonoBehaviour:
   Mask:
     serializedVersion: 2
     m_Bits: 1
+  _handObject: {fileID: 7337549107799483992}
   timeBetweenShots: 0.3333
 --- !u!1 &4493505713366090691
 GameObject:
@@ -706,7 +721,8 @@ GameObject:
   - component: {fileID: 357230909034576152}
   - component: {fileID: 4671879674789147556}
   - component: {fileID: 7811653860280100384}
-  m_Layer: 0
+  - component: {fileID: 7337549107799483992}
+  m_Layer: 3
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,6 +807,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &7337549107799483992
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493505713366090691}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a94650ac87c22b442843c24a54cc41fd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6305394347553033445
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +914,7 @@ GameObject:
   - component: {fileID: 2999859342743935629}
   - component: {fileID: 8766638770725003511}
   - component: {fileID: 1125751959036374525}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Reticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,18 +928,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6305394347553033445}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5123783180038007693}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 100, y: -992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8766638770725003511
 CanvasRenderer:
@@ -876,7 +988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296772864498648215}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -915,7 +1027,7 @@ GameObject:
   - component: {fileID: 2701990474770005083}
   - component: {fileID: 5561781812846355257}
   - component: {fileID: 467927340394338463}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HealthBarValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +1104,7 @@ GameObject:
   - component: {fileID: 267335999262601972}
   - component: {fileID: 8606342881207388297}
   - component: {fileID: 2605664109018219728}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: StaminaBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,7 +1129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1230, y: 627}
+  m_AnchoredPosition: {x: 945, y: 473.00006}
   m_SizeDelta: {x: 200, y: 20}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &267335999262601972
@@ -1121,7 +1233,7 @@ GameObject:
   - component: {fileID: 5621741044521107812}
   - component: {fileID: 3525224918702820240}
   - component: {fileID: 3834690643483904049}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,7 +1258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1230, y: 676}
+  m_AnchoredPosition: {x: 945, y: 522.00006}
   m_SizeDelta: {x: 200, y: 20}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &5621741044521107812
@@ -1247,7 +1359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8642272131360829871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CameraLookTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1282,7 +1394,7 @@ GameObject:
   - component: {fileID: 8079528551147002082}
   - component: {fileID: 3117791003412442643}
   - component: {fileID: 6800072127705127367}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: PlayerHUD
   m_TagString: PlayerHud
   m_Icon: {fileID: 0}
@@ -1346,10 +1458,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1388,4 +1500,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 3834690643483904049}
   staminaBar: {fileID: 2605664109018219728}
-  Sense: {fileID: 3539921406957765144}
+  senseSlider: {fileID: 0}

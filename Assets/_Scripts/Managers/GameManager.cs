@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Management.Instrumentation;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
+using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,9 +23,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject _sun;
 
+    [SerializeField] private bool _isPaused = false;
+
     private void Awake()
     {
-
+        
         //Debugger.Instance.LogInfo("<color=lime><b>Game Manager Script</b> | <i>Assets/Scripts/Player/PlayerMovement.cs</i> | Loaded and Initiated.</color>");
         
         PlayerSpawns.AddRange(GameObject.FindGameObjectsWithTag("PlayerSpawn"));
@@ -81,11 +86,25 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape) && _isPaused == false)
         {
+
+            Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            _isPaused = true;
+
+        } else if (Input.GetKey(KeyCode.Escape) && _isPaused == true)
+        {
+         
+            Time.timeScale = 1;
+            
+            Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
 
+            _isPaused = false;
+            
         }
 
     }

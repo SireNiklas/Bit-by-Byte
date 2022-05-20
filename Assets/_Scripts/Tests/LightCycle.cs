@@ -6,7 +6,7 @@ public class LightCycle : MonoBehaviour
 {
     
     Vector3 rot=Vector3.zero;
-    float day_cycle=20;
+    float day_cycle= .05f;
     
     // Start is called before the first frame update
     void Start()

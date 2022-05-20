@@ -9,11 +9,12 @@ TagManager:
   - Enemy
   - VOID
   - DebugConsoleWindow
+  - PlayerSense
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

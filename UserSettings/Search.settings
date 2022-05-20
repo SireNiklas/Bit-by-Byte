@@ -7,6 +7,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.4ABD0115" = "bullet"
+	"OpenInspectorPreview.4ABD0115" = "0"
+	"currentGroup.4ABD0115" = "all"
 }
 providers = {
 	adb = {
@@ -51,6 +54,7 @@ providers = {
 	}
 }
 recentSearches = [
+	"b"
 ]
 searchItemFavorites = [
 ]

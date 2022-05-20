@@ -4,7 +4,6 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
-using Random = Unity.Mathematics.Random;
 
 public class PlayerMovementController : MonoBehaviour
 {
@@ -15,18 +14,17 @@ public class PlayerMovementController : MonoBehaviour
 
     PlayerStats _playerStats;
     
-    [SerializeField] private float _playerspeed = 5;
-    [SerializeField] private float _playerjumpheight = 50;
+    [Header("Player Attributes")]
+    [SerializeField] private float _playerSpeed = 5;
+    [SerializeField] private float _playerJumpHeight = 50;
     [SerializeField] private float _playerRotation = 27;
+    public int playerStamina = 1000;
+    
     private const float _GRAVITY = -9.81f;
 
-    public int playerstamina = 1000;
-    
-
     private Vector3 _playerMovement;
-
-    [SerializeField] private float playerRotation;
     
+    [Header("Player Checks")]
     [SerializeField] public bool isRunning;
 
     private Transform _cameratransform;
@@ -99,7 +97,7 @@ public class PlayerMovementController : MonoBehaviour
         WASD_movement = WASD_movement.z * _cameraReference.forward.normalized + WASD_movement.x * transform.right.normalized;
         WASD_movement.y = 0f;
 
-        _charController.Move(WASD_movement * Time.deltaTime * _playerspeed);
+        _charController.Move(WASD_movement * Time.deltaTime * _playerSpeed);
         
         if (!_charController.isGrounded)
         {
@@ -136,15 +134,15 @@ public class PlayerMovementController : MonoBehaviour
 
     private void MovementSprint(InputAction.CallbackContext context)
     {
-        if (!isRunning && context.started && playerstamina > 0)
+        if (!isRunning && context.started && playerStamina > 0)
         {
-            _playerspeed = _playerspeed *= 2f;
+            _playerSpeed = _playerSpeed *= 2f;
             isRunning = true;
 
         } else if (isRunning && context.canceled)
         {
 
-            _playerspeed = _playerspeed /=2;
+            _playerSpeed = _playerSpeed /=2;
             isRunning = false;
             
         }
@@ -161,10 +159,10 @@ public class PlayerMovementController : MonoBehaviour
 
         }
         
-        if (isRunning && isRunning && playerstamina < 1)
+        if (isRunning && isRunning && playerStamina < 1)
         {
             
-            _playerspeed = _playerspeed /= 2f;
+            _playerSpeed = _playerSpeed /= 2f;
             isRunning = false;
             
         }
@@ -176,7 +174,7 @@ public class PlayerMovementController : MonoBehaviour
         if (_charController.isGrounded)
         {
 
-            _playerMovement.y = _playerjumpheight;
+            _playerMovement.y = _playerJumpHeight;
         }
     }
     

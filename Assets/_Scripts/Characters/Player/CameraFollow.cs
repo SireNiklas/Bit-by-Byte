@@ -1,16 +1,20 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class CameraFollow : Singleton<CameraFollow>
+public class CameraFollow : MonoBehaviour
 {
     
+    public static CameraFollow Instance { get; private set; }
+
     CinemachineFreeLook _cinemachineFreeLook;
 
     private void Awake()
     {
+        
+        if (Instance != null && Instance != this)
+            Destroy(this);
+        else
+            Instance = this;
         
     }
 
@@ -20,6 +24,8 @@ public class CameraFollow : Singleton<CameraFollow>
             "<color=lime><b>Camera Follow Script</b> | <i>Assets/Scripts/CameraFollow.cs</i> | Loaded and Initiated.</color>");
     
         _cinemachineFreeLook = GetComponent<CinemachineFreeLook>();
+        
+        DontDestroyOnLoad(gameObject);
     }
 
     public void CameraAttach(Transform followTransform, Transform lookAtTransform)
@@ -30,6 +36,6 @@ public class CameraFollow : Singleton<CameraFollow>
         _cinemachineFreeLook.LookAt = lookAtTransform;
         
     }
-    
-    
+
+
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -9,6 +10,13 @@ public class PlayerStats : MonoBehaviour
     
     private HUDController _hudController;
 
+    [Header("Player Attributes")] 
+    [SerializeField]
+    private bool _wasGrounded;
+    [SerializeField]
+    private bool _grounded;
+
+
     private void Awake()
     {
         _playermovementcontroller = GetComponent<PlayerMovementController>();
@@ -18,27 +26,35 @@ public class PlayerStats : MonoBehaviour
 
     }
 
+
+    private void FixedUpdate()
+    {
+
+    }
+    
+    
+
     // Player Check passed, and stamina now being modifed.
 
+    // Health & Stamaina Regeneration.
     public void Regenerate()
     { 
-        if (_playermovementcontroller.playerstamina < 1000) 
-            _playermovementcontroller.playerstamina++;
+        if (_playermovementcontroller.playerStamina < 1000) 
+            _playermovementcontroller.playerStamina++;
 
-        playerstamina = _playermovementcontroller.playerstamina;
+        playerstamina = _playermovementcontroller.playerStamina;
         _hudController.PlayerStatsUpdater();
     }
     
     public void PlayerStaminaHandler()
     {
-        _playermovementcontroller.playerstamina -= 1;
+        _playermovementcontroller.playerStamina -= 1;
 
-        playerstamina = _playermovementcontroller.playerstamina;
+        playerstamina = _playermovementcontroller.playerStamina;
 
         _hudController.PlayerStatsUpdater();
 
     }
-
 
 /*float fallTime = 0;
 bool hasFallen = false;
