@@ -13,20 +13,9 @@ public class MasterSingleton : MonoBehaviour
         if (Instance != null && Instance != this)
             Destroy(this);
         else
+        {
             Instance = this;
-        
-        Debug.Log("<color=green>Test</color>");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+            DontDestroyOnLoad(this);
+        }
     }
 }

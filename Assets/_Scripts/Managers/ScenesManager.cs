@@ -9,7 +9,7 @@ public class ScenesManager : MonoBehaviour
     void Start()
     {
 
-        SceneManager.LoadSceneAsync("ProtoWorld", LoadSceneMode.Additive);
+        SceneManager.LoadScene("MainMenu");
 
     }
 

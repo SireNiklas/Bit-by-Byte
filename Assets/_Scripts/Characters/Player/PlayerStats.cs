@@ -5,7 +5,11 @@ public class PlayerStats : MonoBehaviour
 {
 
     PlayerMovementController _playermovementcontroller;
-    public int playerstamina;
+    private CharacterController _characterController;
+    
+    public int playerStamina = 1000;
+    public float playerHealth = 100;
+    
     [SerializeField] private float regenrate = 0.01f;
     
     private HUDController _hudController;
@@ -16,43 +20,104 @@ public class PlayerStats : MonoBehaviour
     [SerializeField]
     private bool _grounded;
 
+    [SerializeField] private float _velocityThreshold = 5f;
 
+    private RaycastHit _fallHit;
+    
     private void Awake()
     {
         _playermovementcontroller = GetComponent<PlayerMovementController>();
+        _characterController = GetComponent<CharacterController>();
         _hudController = GameObject.FindWithTag("PlayerHud").GetComponent<HUDController>();
         
         InvokeRepeating("Regenerate", 0.0f, regenrate);
 
     }
 
+    private float damage;
 
-    private void FixedUpdate()
+    /*private void FixedUpdate()
+    {
+        damage = Mathf.Abs(_characterController.velocity.y) + _velocityThreshold;
+
+        if (_characterController.isGrounded)
+        {
+            if (_characterController.velocity.y < -_velocityThreshold)
+            {
+                
+                Debug.Log("DO DAMAGE: " + damage);
+
+                playerHealth -= damage * 2;
+                
+            }
+
+        }
+        
+        Debug.Log("Velocity: " + damage);
+
+    }*/
+
+    [SerializeField] private float _groundedPosition;
+    [SerializeField] private float _fallDistance;
+    [SerializeField] private float _minimumFallDistance = 5f;
+
+    private void Update()
     {
 
+        if (_characterController.isGrounded)
+        {
+
+            //Debug.Log("GROUNDED!");
+
+            _groundedPosition = transform.position.y;
+
+            if (_fallDistance > _minimumFallDistance)
+            {
+                playerHealth -= _fallDistance;
+                
+                Debug.Log(_fallDistance);
+                
+                _fallDistance = 0;
+            }
+        }
+        else if (!_characterController.isGrounded) 
+        { 
+            if (Physics.Raycast(transform.position, Vector3.down, out _fallHit, 999f))
+            {
+                _fallDistance = _groundedPosition - _fallHit.point.y;
+                Debug.DrawLine(transform.position, _fallHit.point, Color.green);
+            }
+        }
+
     }
-    
-    
+
 
     // Player Check passed, and stamina now being modifed.
 
     // Health & Stamaina Regeneration.
     public void Regenerate()
     { 
-        if (_playermovementcontroller.playerStamina < 1000) 
-            _playermovementcontroller.playerStamina++;
+        if (playerStamina < 1000) 
+            playerStamina++;
 
-        playerstamina = _playermovementcontroller.playerStamina;
+        if (playerHealth < 100) playerHealth += 0.01f;
+
+        playerStamina = playerStamina;
         _hudController.PlayerStatsUpdater();
     }
     
     public void PlayerStaminaHandler()
     {
-        _playermovementcontroller.playerStamina -= 1;
-
-        playerstamina = _playermovementcontroller.playerStamina;
+        playerStamina -= 1;
 
         _hudController.PlayerStatsUpdater();
+
+    }
+
+    private void DoVoidDamage()
+    {
+
+        playerHealth -= playerHealth * 0.7f;
 
     }
 

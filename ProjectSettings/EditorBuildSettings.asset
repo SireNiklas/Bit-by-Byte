@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/PreloadRealm.unity
+    guid: c0af200bbbec1944baccfadf181939a5
+  - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: 1aa2eedf0efd1f5469c90453b4188ae8
   - enabled: 1

@@ -52,7 +52,8 @@ public class HUDController : MonoBehaviour
     
     public void PlayerStatsUpdater()
     {
-        staminaBar.value = _playerStats.playerstamina;
+        staminaBar.value = _playerStats.playerStamina;
+        healthBar.value = _playerStats.playerHealth;
     }
 
     private void PlayerSense()

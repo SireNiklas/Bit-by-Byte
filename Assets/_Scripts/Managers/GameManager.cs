@@ -10,17 +10,9 @@ using Cursor = UnityEngine.Cursor;
 public class GameManager : MonoBehaviour
 {
     
-    CinemachineVirtualCamera _cinemachineVirtualCamera;
-    
     //public GameObject Player;
     [SerializeField] bool lockCurser = true;
-    public static bool IsFirstPActive;
-    public static bool IsThirdPActive;
-
-    [SerializeField]private GameObject _player;
-
-    [SerializeField] List<GameObject> PlayerSpawns;
-
+    
     [SerializeField] private GameObject _sun;
 
     [SerializeField] private bool _isPaused = false;
@@ -28,13 +20,11 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         
-        //Debugger.Instance.LogInfo("<color=lime><b>Game Manager Script</b> | <i>Assets/Scripts/Player/PlayerMovement.cs</i> | Loaded and Initiated.</color>");
-        
-        PlayerSpawns.AddRange(GameObject.FindGameObjectsWithTag("PlayerSpawn"));
-        
-        GameObject _Player = Instantiate(_player, PlayerSpawns[Random.Range(0, PlayerSpawns.Count)].transform.position, transform.rotation);
-        
-        //Debugger.Instance.LogInfo("Player Spawned!");
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
         
         if (lockCurser)
         {
@@ -55,30 +45,6 @@ public class GameManager : MonoBehaviour
             Debug.Log("<color=cyan>No gamepads detected</color>");
 
         }
-
-        _cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
-
-        /*if (FirstPersonController.IsFirstPerson == true)
-        {
-
-            IsFirstPActive = true;
-            IsThirdPActive = false;
-
-        } else if (ThirdPersonController.IsThirdPerson == true)
-        {
-
-            IsThirdPActive = true;
-            IsFirstPActive = false;
-
-        }*/
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-        
         
     }
 
