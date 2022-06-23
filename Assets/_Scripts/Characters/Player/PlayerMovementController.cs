@@ -123,14 +123,15 @@ public class PlayerMovementController : MonoBehaviour
         if (_playerCurrentSpeedX == 0f && _playerCurrentSpeedZ == 0f)
         {
             
-            _animator.SetFloat("playerMovementState", 0);
-            _animator.SetFloat("playerWalkingState", 0);
+            //_animator.SetFloat("playerMovementState", 0);
+            //_animator.SetFloat("playerWalkingState", 0);
+            //_animator.speed = 1;
         }
         else
         {
-            
-            //_animator.SetFloat("speed", 1f);
-            
+
+            //_animator.speed = 5;
+
         }
         
         if (_playerCurrentSpeedX < 0)
@@ -156,7 +157,8 @@ public class PlayerMovementController : MonoBehaviour
         else if (_playercontrols.Movement.Sprint.inProgress)
         {
             _playerStats.PlayerStaminaHandler();
-            _animator.SetFloat("speed", 1f);
+            //_animator.SetFloat("speed", 1f);
+            //_animator.speed = 10;
         }
         
         // Player Jump
@@ -173,12 +175,13 @@ public class PlayerMovementController : MonoBehaviour
         { 
             
             _playerMovementDirection.y = _playerMoveDirectionY;
+            //_animator.speed = 1f;
 
         }
 
-        Debug.Log(_animator.GetBool("isJumping"));
-        Debug.Log(_animator.GetFloat("speed"));
-        Debug.Log((_playerCurrentSpeedX, _playerCurrentSpeedZ));
+        //Debug.Log(_animator.GetBool("isJumping"));
+        //Debug.Log(_animator.GetFloat("speed"));
+        //Debug.Log((_playerCurrentSpeedX, _playerCurrentSpeedZ));
 
         if (!_charController.isGrounded)
         {

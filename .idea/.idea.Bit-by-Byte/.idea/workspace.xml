@@ -6,14 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="0b888909-7fba-48f8-bad0-97be304a47c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bit-by-Byte/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/World.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/World/FloatingIsland.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/World/FloatingIsland.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/01 Customize Character Here/01 Drag Character Base to Scene/Fair Nature Male Mage 01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/01 Customize Character Here/01 Drag Character Base to Scene/Fair Nature Male Mage 01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Aqua.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Aqua.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Nature.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Materials/Spirited Crystals Nature.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Scenes/Weapons and Props.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Scenes/Weapons and Props.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/FBX/Male Main Rig.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/FBX/Male Main Rig.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Fair Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Fair Fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Aqua.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Aqua.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Dark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Nature.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Male Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Nature.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Modled &amp; Rigged/Animations/Mage.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/Modled &amp; Rigged/Animations/Mage.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Players/Modled &amp; Rigged/Test Mage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Players/Modled &amp; Rigged/Test Mage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/ProtoWorld.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Characters/Player/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Characters/Player/PlayerMovementController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1332c534a8a44623b2e5cc943a0b790e157400/ba/db25a496/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/556aa4c8e9a0481fba05363c5e0bba1917a00/1a/12d77d25/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Characters/CharacterCustomization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Characters/CharacterCustomizationText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Characters/Enemies/EnemyAIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Characters/Enemies/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Characters/Player/PlayerAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -205,6 +219,8 @@
       <workItem from="1655338036654" duration="780000" />
       <workItem from="1655349592995" duration="421000" />
       <workItem from="1655921922960" duration="267000" />
+      <workItem from="1655924071574" duration="1473000" />
+      <workItem from="1656000165377" duration="7757000" />
     </task>
     <servers />
   </component>
@@ -234,14 +250,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_Scripts/Characters/Player/PlayerCollisionsController.cs</url>
           <line>12</line>
-          <properties documentPath="C:\Users\Nicho\OneDrive\Documents\GitHub\Bit-by-Byte\Assets\_Scripts\Characters\Player\PlayerCollisionsController.cs" initialLine="12" containingFunctionPresentation="method 'OnTriggerEnter'">
-            <startOffsets>
-              <option value="321" />
-            </startOffsets>
-            <endOffsets>
-              <option value="322" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\Nicho\OneDrive\Documents\GitHub\Bit-by-Byte\Assets\_Scripts\Characters\Player\PlayerCollisionsController.cs" initialLine="12" containingFunctionPresentation="method 'OnTriggerEnter'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
