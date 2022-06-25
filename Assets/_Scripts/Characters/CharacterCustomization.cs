@@ -42,8 +42,8 @@ public class CharacterCustomization : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-
-            SceneManager.LoadScene("ProtoWorld");
+            SceneManager.LoadSceneAsync("ProtoWorld", LoadSceneMode.Additive);
+            this.enabled = false;
         }
     }
 

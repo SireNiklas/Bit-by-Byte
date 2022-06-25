@@ -37,7 +37,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private Vector3 _playerMovement;
     
-    private Transform _cameratransform;
+    private Transform _cameraTransform;
     private Transform _cameraReference;
     
     private Vector3 _lastPos;
@@ -69,7 +69,7 @@ public class PlayerMovementController : MonoBehaviour
             Camera.main.GetComponent<CameraFollow>().enabled = true;
             CameraFollow.Instance.CameraAttach(transform.Find("CameraLookTarget"), transform.Find("CameraLookTarget"));
 
-            _cameratransform = Camera.main.transform;
+            _cameraTransform = Camera.main.transform;
 
                 
             _animator = gameObject.GetComponent<Animator>();
@@ -205,7 +205,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void PlayerRotation()
     {
-        _cameraReference.eulerAngles = new Vector3(0, _cameratransform.eulerAngles.y, 0);
+        _cameraReference.eulerAngles = new Vector3(0, _cameraTransform.eulerAngles.y, 0);
 
         if (Time.deltaTime == 0)
         {
