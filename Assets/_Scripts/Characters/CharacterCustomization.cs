@@ -2,17 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using Random = UnityEngine.Random;
 
 public class CharacterCustomization : MonoBehaviour
 {
     private PlayerManager _playerManager;
     
     public List<Customization> Customizations;
-    private int _currentCustomizationIndex;
-
-    public Customization CurrentCustomization { get; private set; }
+    public int _currentCustomizationIndex;
+    
+    public Customization currentCustomization { get; private set; }
+    //enum CustomizationCategories { Head, Hair, Face };
 
     private void Awake()
     {
@@ -23,28 +22,67 @@ public class CharacterCustomization : MonoBehaviour
             customization.UpdateRenderers();
             customization.UpdateSubObjects();
             
-        }
-        
+        }        
     }
 
     private void Update()
     {
-        
-        SelectCustomization();
-        
+
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             
-            CurrentCustomization.NextMaterial();
+            currentCustomization.NextMaterial();
             Debug.Log("RIGHT ARROW");
-            CurrentCustomization.NextSubObjects();
+            currentCustomization.NextSubObjects();
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+            currentCustomization.PreviousSubObjects();
+
+        // Load
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            SceneManager.LoadSceneAsync("ProtoWorld", LoadSceneMode.Additive);
-            this.enabled = false;
+
+            Debug.Log("Loaded");
+
+            LoadHead();
+            currentCustomization.LoadCustomizationHead();
+
+            LoadHair();
+            currentCustomization.LoadCustomizationHair();
+
+            LoadFace();
+            currentCustomization.LoadCustomizationFace();
+
         }
+
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            
+            PlayerPrefs.DeleteKey("Head");
+            PlayerPrefs.DeleteKey("Face");
+            PlayerPrefs.DeleteKey("Hair");
+
+        }
+    
+        SelectCustomization();
+        
+    }
+
+    public void LoadHead()
+    {
+        _currentCustomizationIndex = 0;
+        currentCustomization = Customizations[_currentCustomizationIndex];
+    }
+    public void LoadHair()
+    {
+        _currentCustomizationIndex = 1;
+        currentCustomization = Customizations[_currentCustomizationIndex];   
+    }
+    public void LoadFace()
+    {
+        _currentCustomizationIndex = 2;
+        currentCustomization = Customizations[_currentCustomizationIndex];
     }
 
     void SelectCustomization()
@@ -58,7 +96,7 @@ public class CharacterCustomization : MonoBehaviour
             _currentCustomizationIndex = Customizations.Count - 1;
         if (_currentCustomizationIndex >= Customizations.Count)
             _currentCustomizationIndex = 0;
-        CurrentCustomization = Customizations[_currentCustomizationIndex];
+        currentCustomization = Customizations[_currentCustomizationIndex];
 
     }
 }
@@ -94,15 +132,27 @@ public class Customization
             _subObjectIndex = 0;
 
         UpdateSubObjects();
+        SaveCustomization();
     }
-    
+
+    public void PreviousSubObjects()
+    {
+
+        _subObjectIndex--;
+        if (_subObjectIndex < 0)
+            _subObjectIndex = SubObjects.Count - 1;
+
+        UpdateSubObjects();
+        SaveCustomization();
+    }
+
     public void UpdateSubObjects()
     {
 
         for (var i = 0; i < SubObjects.Count; i++)
             if (SubObjects[i])
                 SubObjects[i].SetActive(i == _subObjectIndex);
-
+        
     }
 
     public void UpdateRenderers()
@@ -113,5 +163,74 @@ public class Customization
                 renderer.material = Materials[_materialIndex];
     }
 
+    public void SaveCustomization()
+    {
+        PlayerPrefs.SetInt(DisplayName, _subObjectIndex);
+        PlayerPrefs.Save();
+
+        Debug.Log("Saved: " + DisplayName + " Item: " + _subObjectIndex);
+    }
+    
+    public void Load()
+    {
+        
+        int loadHead = PlayerPrefs.GetInt("Head");
+        int loadFace = PlayerPrefs.GetInt("Face");
+        int loadHair = PlayerPrefs.GetInt("Hair");
+        
+        
+        
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadHead);
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadFace);
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadHair);
+
+        Debug.Log("Loaded: " + DisplayName + " Item: " + loadHead);
+        
+    }
+
+    public void LoadCustomizationHead()
+    {
+
+        int loadHead = PlayerPrefs.GetInt("Head");
+
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadHead);
+
+        Debug.Log("Loaded: " + DisplayName + " Item: " + loadHead);
+        
+    }
+
+    public void LoadCustomizationFace()
+    {
+        
+        int loadFace = PlayerPrefs.GetInt("Face");
+        
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadFace);
+        
+        Debug.Log("Loaded: " + DisplayName + " Item: " + loadFace);
+
+    }
+    
+    public void LoadCustomizationHair()
+    {
+        
+        int loadHair = PlayerPrefs.GetInt("Hair");
+        
+        for (var i = 0; i < SubObjects.Count; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == loadHair);
+        
+        Debug.Log("Loaded: " + DisplayName + " Item: " + loadHair);
+
+    }
 
 }

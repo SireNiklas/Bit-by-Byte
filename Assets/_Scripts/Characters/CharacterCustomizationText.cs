@@ -18,6 +18,6 @@ public class CharacterCustomizationText : MonoBehaviour
 
     private void Update()
     {
-        _text.SetText(_characterCustomization.CurrentCustomization?.DisplayName);
+        _text.SetText(_characterCustomization.currentCustomization?.DisplayName);
     }
 }
