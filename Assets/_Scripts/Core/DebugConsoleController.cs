@@ -31,7 +31,7 @@ public class DebugConsoleController : MonoBehaviour
     private void Awake()
     {
 
-        Debug.Log("Controler for Console");
+        Debug.Log("Controller for Console");
 
     }
 

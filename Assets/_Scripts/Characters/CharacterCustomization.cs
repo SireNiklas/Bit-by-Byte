@@ -7,96 +7,105 @@ public class CharacterCustomization : MonoBehaviour
 {
     private PlayerManager _playerManager;
     
-    public List<Customization> Customizations;
-    public int _currentCustomizationIndex;
+    //public List<Customization> Customizations;
     
     public Customization currentCustomization { get; private set; }
-    //enum CustomizationCategories { Head, Hair, Face };
+
+    public Customization[] Customizations;
+    enum CustomizationCategories { HEAD, HAIR, FACE, BODY };
+
+    private int _customizationCategoryIndex = System.Enum.GetValues(typeof(CustomizationCategories)).Length;
+
 
     private void Awake()
     {
 
         foreach (var customization in Customizations)
         {
-            
             customization.UpdateRenderers();
             customization.UpdateSubObjects();
-            
-        }        
+        }
+
     }
 
     private void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            
-            currentCustomization.NextMaterial();
-            Debug.Log("RIGHT ARROW");
-            currentCustomization.NextSubObjects();
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            currentCustomization.PreviousSubObjects();
-
-        // Load
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-
-            Debug.Log("Loaded");
-
-            LoadHead();
-            currentCustomization.LoadCustomizationHead();
-
-            LoadHair();
-            currentCustomization.LoadCustomizationHair();
-
-            LoadFace();
-            currentCustomization.LoadCustomizationFace();
-
-        }
-
+        // Temp way to delete saved data.
         if (Input.GetKeyDown(KeyCode.Delete))
         {
             
             PlayerPrefs.DeleteKey("Head");
             PlayerPrefs.DeleteKey("Face");
             PlayerPrefs.DeleteKey("Hair");
-
         }
-    
-        SelectCustomization();
-        
+
+#if UNITY_EDITOR
+        CustomizationSelection();
+        CycleCustomizations();
+        LoadCustomization();
+#endif
+
+    }
+
+    private void CycleCustomizations()
+    {
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        { 
+            currentCustomization.NextMaterial();
+            currentCustomization.NextSubObjects();
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            currentCustomization.PreviousMaterial();
+            currentCustomization.PreviousSubObjects();
+        }
+    }
+
+    public void LoadCustomization()
+    {
+
+    if (Input.GetKeyDown(KeyCode.LeftShift))
+    {
+            LoadHead();
+        currentCustomization.LoadCustomizationHead();
+            LoadHair();
+        currentCustomization.LoadCustomizationHair();
+            LoadFace();
+        currentCustomization.LoadCustomizationFace();
+        }
+
     }
 
     public void LoadHead()
     {
-        _currentCustomizationIndex = 0;
-        currentCustomization = Customizations[_currentCustomizationIndex];
+        _customizationCategoryIndex = (int)CustomizationCategories.HEAD;
+        currentCustomization = Customizations[_customizationCategoryIndex];
     }
     public void LoadHair()
     {
-        _currentCustomizationIndex = 1;
-        currentCustomization = Customizations[_currentCustomizationIndex];   
+        _customizationCategoryIndex = (int)CustomizationCategories.HAIR;
+        currentCustomization = Customizations[_customizationCategoryIndex];   
     }
     public void LoadFace()
     {
-        _currentCustomizationIndex = 2;
-        currentCustomization = Customizations[_currentCustomizationIndex];
+        _customizationCategoryIndex = (int)CustomizationCategories.FACE;
+        currentCustomization = Customizations[_customizationCategoryIndex];
     }
 
-    void SelectCustomization()
+    void CustomizationSelection()
     {
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
-            _currentCustomizationIndex++;
+            _customizationCategoryIndex--;
         if (Input.GetKeyDown(KeyCode.UpArrow))
-            _currentCustomizationIndex--;
-        if (_currentCustomizationIndex < 0)
-            _currentCustomizationIndex = Customizations.Count - 1;
-        if (_currentCustomizationIndex >= Customizations.Count)
-            _currentCustomizationIndex = 0;
-        currentCustomization = Customizations[_currentCustomizationIndex];
+            _customizationCategoryIndex--;
+        if (_customizationCategoryIndex < 0)
+            _customizationCategoryIndex = Customizations.Length - 1;
+        if (_customizationCategoryIndex >= Customizations.Length)
+            _customizationCategoryIndex = 0;
+        currentCustomization = Customizations[_customizationCategoryIndex];
 
     }
 }
@@ -107,9 +116,9 @@ public class Customization
 
     public string DisplayName;
 
-    public List<Renderer> Renderers;
-    public List<Material> Materials;
-    public List<GameObject> SubObjects;
+    public Renderer[] Renderers;
+    public Material[] Materials;
+    public GameObject[] SubObjects;
 
     private int _materialIndex;
     private int _subObjectIndex;
@@ -119,40 +128,23 @@ public class Customization
     {
 
         _materialIndex++;
-        if (_materialIndex >= Materials.Count)
+        if (_materialIndex >= Materials.Length)
             _materialIndex = 0;
 
-    }
-    
-    public void NextSubObjects()
-    {
-
-        _subObjectIndex++;
-        if (_subObjectIndex >= SubObjects.Count)
-            _subObjectIndex = 0;
-
-        UpdateSubObjects();
-        SaveCustomization();
+        UpdateRenderers();
+        SaveMaterialObjects();
     }
 
-    public void PreviousSubObjects()
+    public void PreviousMaterial()
     {
 
-        _subObjectIndex--;
-        if (_subObjectIndex < 0)
-            _subObjectIndex = SubObjects.Count - 1;
+        _materialIndex--;
+        if (_materialIndex < 0)
+            _materialIndex = Materials.Length - 1;
 
-        UpdateSubObjects();
-        SaveCustomization();
-    }
+        UpdateRenderers();
+        SaveMaterialObjects();
 
-    public void UpdateSubObjects()
-    {
-
-        for (var i = 0; i < SubObjects.Count; i++)
-            if (SubObjects[i])
-                SubObjects[i].SetActive(i == _subObjectIndex);
-        
     }
 
     public void UpdateRenderers()
@@ -163,43 +155,60 @@ public class Customization
                 renderer.material = Materials[_materialIndex];
     }
 
-    public void SaveCustomization()
+    public void SaveMaterialObjects()
     {
-        PlayerPrefs.SetInt(DisplayName, _subObjectIndex);
+        PlayerPrefs.SetInt(DisplayName, _materialIndex);
         PlayerPrefs.Save();
 
-        Debug.Log("Saved: " + DisplayName + " Item: " + _subObjectIndex);
+        Debug.Log("Saved: " + DisplayName + " Item: " + _materialIndex);
     }
-    
-    public void Load()
-    {
-        
-        int loadHead = PlayerPrefs.GetInt("Head");
-        int loadFace = PlayerPrefs.GetInt("Face");
-        int loadHair = PlayerPrefs.GetInt("Hair");
-        
-        
-        
-        for (var i = 0; i < SubObjects.Count; i++)
-            if (SubObjects[i])
-                SubObjects[i].SetActive(i == loadHead);
-        for (var i = 0; i < SubObjects.Count; i++)
-            if (SubObjects[i])
-                SubObjects[i].SetActive(i == loadFace);
-        for (var i = 0; i < SubObjects.Count; i++)
-            if (SubObjects[i])
-                SubObjects[i].SetActive(i == loadHair);
 
-        Debug.Log("Loaded: " + DisplayName + " Item: " + loadHead);
-        
+    public void NextSubObjects()
+    {
+
+        _subObjectIndex++;
+        if (_subObjectIndex >= SubObjects.Length)
+            _subObjectIndex = 0;
+
+        UpdateSubObjects();
+        SaveSubObjects();
     }
+
+    public void PreviousSubObjects()
+    {
+
+        _subObjectIndex--;
+        if (_subObjectIndex < 0)
+            _subObjectIndex = SubObjects.Length - 1;
+
+        UpdateSubObjects();
+        SaveSubObjects();
+    }
+
+    public void UpdateSubObjects()
+    {
+
+        for (var i = 0; i < SubObjects.Length; i++)
+            if (SubObjects[i])
+                SubObjects[i].SetActive(i == _subObjectIndex);
+    }
+
+    // Save customization data to Player Prefs.
+    public void SaveSubObjects()
+    {
+            PlayerPrefs.SetInt(DisplayName, _subObjectIndex);
+            PlayerPrefs.Save();
+
+            Debug.Log("Saved: " + DisplayName + " Item: " + _subObjectIndex);
+    }
+
 
     public void LoadCustomizationHead()
     {
 
         int loadHead = PlayerPrefs.GetInt("Head");
 
-        for (var i = 0; i < SubObjects.Count; i++)
+        for (var i = 0; i < SubObjects.Length; i++)
             if (SubObjects[i])
                 SubObjects[i].SetActive(i == loadHead);
 
@@ -212,7 +221,7 @@ public class Customization
         
         int loadFace = PlayerPrefs.GetInt("Face");
         
-        for (var i = 0; i < SubObjects.Count; i++)
+        for (var i = 0; i < SubObjects.Length; i++)
             if (SubObjects[i])
                 SubObjects[i].SetActive(i == loadFace);
         
@@ -225,7 +234,7 @@ public class Customization
         
         int loadHair = PlayerPrefs.GetInt("Hair");
         
-        for (var i = 0; i < SubObjects.Count; i++)
+        for (var i = 0; i < SubObjects.Length; i++)
             if (SubObjects[i])
                 SubObjects[i].SetActive(i == loadHair);
         

@@ -13,7 +13,7 @@ public class PlayerManager : MonoBehaviour
     {
         
         PlayerSpawns.AddRange(GameObject.FindGameObjectsWithTag("PlayerSpawn"));
-        //GameObject _Player = Instantiate(_player, PlayerSpawns[Random.Range(0, PlayerSpawns.Count)].transform.position, transform.rotation);
+        GameObject _Player = Instantiate(_player, PlayerSpawns[Random.Range(0, PlayerSpawns.Count)].transform.position, transform.rotation);
         
     }
 

@@ -2204,6 +2204,7 @@ GameObject:
   - component: {fileID: 4960320977310059253}
   - component: {fileID: 966023696690665702}
   - component: {fileID: 966023696690665705}
+  - component: {fileID: 5817962917939212699}
   - component: {fileID: 966023696690665704}
   - component: {fileID: 966023696690665707}
   - component: {fileID: 966023696690665706}
@@ -2211,7 +2212,7 @@ GameObject:
   - component: {fileID: 966023696690665708}
   - component: {fileID: 966023696690665711}
   m_Layer: 0
-  m_Name: Fair Nature Male Mage 01
+  m_Name: Fair Nature Male Mage
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2346,6 +2347,20 @@ MonoBehaviour:
     Renderers: []
     Materials: []
     SubObjects: []
+--- !u!114 &5817962917939212699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960320977310059252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f476b94343025b549857ae51478a2d06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCustomization: {fileID: 966023696690665705}
+  player: {fileID: 0}
 --- !u!114 &966023696690665704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2370,9 +2385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bfba1a2194a0094d8bb26507517a070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerWalkingSpeed: 10
-  _playerRunningSpeed: 20
-  _playerJumpHeight: 50
+  _playerWalkingSpeed: 3
+  _playerRunningSpeed: 5
+  _playerJumpHeight: 7
   _playerRotation: 27
   _playerAcceleration: 0
   _playerAccelerationRate: 5
