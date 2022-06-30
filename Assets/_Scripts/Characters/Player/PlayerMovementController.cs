@@ -73,6 +73,11 @@ public class PlayerMovementController : MonoBehaviour
 
                 
             _animator = gameObject.GetComponent<Animator>();
+
+            // calculate the correct vertical position:
+            float correctHeight = _charController.center.y + _charController.skinWidth;
+            // set the controller center vector:
+            _charController.center = new Vector3(0, correctHeight, 0);
     }
 
     private void Update()
