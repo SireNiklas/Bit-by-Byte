@@ -6,12 +6,26 @@ public class CharacterCustomizationInitialization : MonoBehaviour
 {
 
     public CharacterCustomization characterCustomization;
+    [SerializeField] private GameObject player;
+
 
     private void Awake()
     {
 
-        characterCustomization = GetComponent<CharacterCustomization>();
+        player = GameObject.FindGameObjectWithTag("Player");
 
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+        player.GetComponent<PlayerMovementController>().enabled = true;
+        player.GetComponent<PlayerStats>().enabled = true;
+        player.GetComponent<PlayerActionsController>().enabled = true;
+        player.GetComponent<CharacterCustomizationInitialization>().enabled = true;
+
+        characterCustomization = GetComponent<CharacterCustomization>();
         characterCustomization.LoadHead();
         characterCustomization.currentCustomization.LoadCustomizationHead();
         characterCustomization.LoadHair();
@@ -19,12 +33,6 @@ public class CharacterCustomizationInitialization : MonoBehaviour
         characterCustomization.LoadFace();
         characterCustomization.currentCustomization.LoadCustomizationFace();
 
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame

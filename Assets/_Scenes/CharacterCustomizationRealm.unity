@@ -7690,6 +7690,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300004, guid: 9882e54ca7c74394a83a739e993aafbd, type: 3}
+    - target: {fileID: 5817962917939212699, guid: 8b08f32af1e73df46a37a0e3aa52085f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 4960320977310059252, guid: 8b08f32af1e73df46a37a0e3aa52085f, type: 3}
+    - target: {fileID: 5817962917939212699, guid: 8b08f32af1e73df46a37a0e3aa52085f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7767972330801736357, guid: 8b08f32af1e73df46a37a0e3aa52085f, type: 3}
       propertyPath: m_Enabled
       value: 0

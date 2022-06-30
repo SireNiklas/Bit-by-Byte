@@ -47,11 +47,8 @@ public class CharacterCustomizerUI : MonoBehaviour
     {
 
         // Calls camera which doesn't exist.
-        player.GetComponent<PlayerMovementController>().enabled = true;
-        player.GetComponent<PlayerActionsController>().enabled = true;
-        player.GetComponent<PlayerStats>().enabled = true;
-        player.GetComponent<CharacterCustomizationInitialization>().enabled = true;
 
+        //player.GetComponent<CharacterCustomizationInitialization>().enabled = true;
         SceneManager.LoadScene("Protoworld");
 
     }
