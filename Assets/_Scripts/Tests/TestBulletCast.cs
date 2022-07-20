@@ -5,8 +5,8 @@ using Random = UnityEngine.Random;
 
 public class TestBulletCast : MonoBehaviour
 {
-    [SerializeField]
-    private bool AddBulletSpread = true;
+    //[SerializeField]
+    //private bool AddBulletSpread = true;
     [SerializeField]
     private Vector3 BulletSpreadVariance = new Vector3(0.1f, 0.1f, 0.1f);
     [SerializeField]
@@ -15,8 +15,6 @@ public class TestBulletCast : MonoBehaviour
     //private ParticleSystem ImpactParticleSystem;
     [SerializeField]
     private TrailRenderer BulletTrail;
-    [SerializeField]
-    private float ShootDelay = 0.5f;
     [SerializeField]
     private LayerMask Mask;
     

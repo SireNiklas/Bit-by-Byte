@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/PreloadRealm.unity
-    guid: c0af200bbbec1944baccfadf181939a5
+    path: Assets/_Scenes/Pre_Game.unity
+    guid: b74c22431b097f64ca1872457a7800ad
   - enabled: 1
-    path: Assets/_Scenes/MainMenu.unity
-    guid: 1aa2eedf0efd1f5469c90453b4188ae8
+    path: Assets/_Scenes/HUBRealm.unity
+    guid: 74351d52196e0434ab1576b41a7a142a
   - enabled: 1
-    path: Assets/_Scenes/ProtoWorld.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/_Scenes/Post_Game.unity
+    guid: 465775311b638e946a5be96dfaf1f302
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

@@ -2,7 +2,6 @@ using Cinemachine;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Cinemachine;
 
 public class HUDController : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class HUDController : MonoBehaviour
     public Slider healthBar;
     public Slider staminaBar;
 
-    public Slider senseSlider;
+    //public Slider senseSlider;
 
     //PlayerMovementController _playermovementcontroller;
     private PlayerStats _playerStats;

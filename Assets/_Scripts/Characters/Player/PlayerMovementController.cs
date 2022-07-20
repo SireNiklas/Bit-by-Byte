@@ -2,63 +2,58 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using Cinemachine;
-using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
+using Managers;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    private GameManager _gameManager;
-    
+    // Script Reference
     private CameraFollow _cameraFollow;
-    
-    private CharacterController _charController;
-    private PlayerControls _playercontrols;
-    
-    private Animator _animator;
-    
-    PlayerStats _playerStats;
-    
+    private CharacterController _controller;
+    //private PlayerControls _playercontrols;
+    private PlayerStats _playerStats;
+
     [Header("Player Movement Attributes")]
-    [SerializeField] private float _playerWalkingSpeed = 10;
-    [SerializeField] private float _playerRunningSpeed = 20;
+    [SerializeField] private float _playerSpeed;
     [SerializeField] private float _playerJumpHeight = 50;
     [SerializeField] private float _playerRotation = 27;
 
     private Vector3 _playerMovementDirection;
     
-    [Header("Player Acceleration")]
-    [SerializeField] private float _playerAcceleration;
-    [SerializeField] private float _playerAccelerationRate = 5f;
-    [SerializeField] private float _playerAcclerationMultiplier = 10f;
+    //[Header("Player Acceleration")]
+    //[SerializeField] private float _playerAcceleration = 0f;
+    //[SerializeField] private float _playerAccelerationRate = 5f;
+    //[SerializeField] private float _playerAcclerationMultiplier = 10f;
     
     private const float _GRAVITY = -9.81f;
-
-    private Vector3 _playerMovement;
     
     private Transform _cameraTransform;
     private Transform _cameraReference;
     
     private Vector3 _lastPos;
+
+
+    [Header("Public Variables")]
+    public float playerVelocity;
+
+
     
     private void Awake()
     {
 
         Debug.Log(
             "<color=lime><b>Player Movement Controller Script</b> | <i>Assets/Scripts/Player/PlayerMovementController.cs</i> | Loaded and Initiated.</color>");
-        _charController = GetComponent<CharacterController>();
+        _controller = GetComponent<CharacterController>();
         _playerStats = GetComponent<PlayerStats>();
 
         gameObject.name = "Player";
         
-        _playercontrols = new PlayerControls();
-        _playercontrols.Movement.Enable();
+        //_playercontrols = new PlayerControls();
+        //_playercontrols.Movement.Enable();
 
         _cameraReference = new GameObject().transform;
         _cameraReference.name = "Camera Reference";
         
-
     }
 
     private void Start()
@@ -66,156 +61,99 @@ public class PlayerMovementController : MonoBehaviour
 
         Camera.main.transform.position = transform.position;
 
-            Camera.main.GetComponent<CameraFollow>().enabled = true;
-            CameraFollow.Instance.CameraAttach(transform.Find("CameraLookTarget"), transform.Find("CameraLookTarget"));
+        Camera.main.GetComponent<CameraFollow>().enabled = true;
+        CameraFollow.Instance.CameraAttach(transform.Find("CameraLookTarget"), transform.Find("CameraLookTarget"));
 
-            _cameraTransform = Camera.main.transform;
+        _cameraTransform = Camera.main.transform;
 
-                
-            _animator = gameObject.GetComponent<Animator>();
-
-            // calculate the correct vertical position:
-            float correctHeight = _charController.center.y + _charController.skinWidth;
-            // set the controller center vector:
-            _charController.center = new Vector3(0, correctHeight, 0);
+        // calculate the correct vertical position:
+        float correctHeight = _controller.center.y + _controller.skinWidth;
+        // set the controller center vector:
+        _controller.center = new Vector3(0, correctHeight, 0);
     }
 
     private void Update()
     {
         
         PlayerMovement();
-        
+        PlayerRotation();
+
+
     }
 
     private void LateUpdate()
     {
-        
-        PlayerRotation();
-        
+                
     }
 
     private void PlayerMovement()
     {
-
-        bool hasStamina = _playerStats.playerStamina > 0;
-
-        float _playerMovementVelocityY = 0;
+    //    float _playerWalkingSpeed = 10;
+    //    float _playerRunningSpeed = 20;
+    //    bool _hasStamina = _playerStats.playerStamina > 0;
+    //    bool _isSprinting = _playercontrols.Movement.Sprint.inProgress;
         
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        Vector3 right = transform.TransformDirection(Vector3.right);
+    //    Vector3 forward = transform.TransformDirection(Vector3.forward);
+    //    Vector3 right = transform.TransformDirection(Vector3.right);
 
-        // WASD Movement section.
-        Vector2 inputVector = _playercontrols.Movement.WASD.ReadValue<Vector2>();
-        Vector3 _playerMovement = new Vector3(inputVector.x, 0, inputVector.y);
+    //    // WASD Movement section.
+    //    Vector2 inputVector = _playercontrols.Movement.WASD.ReadValue<Vector2>();
+    //    Vector3 _playerMovement = new Vector3(inputVector.x, 0, inputVector.y);
+    //    // Move camera relative to Player.
+    //    _playerMovement.y = 0;
+    //    _playerMovement = _playerMovement.z * _cameraReference.forward.normalized + _playerMovement.x * transform.right.normalized;
 
-        float _playerCurrentSpeedX = (_playercontrols.Movement.Sprint.inProgress && hasStamina ? _playerRunningSpeed : _playerWalkingSpeed) * _playerMovement.x;
-        float _playerCurrentSpeedZ = (_playercontrols.Movement.Sprint.inProgress && hasStamina ? _playerRunningSpeed : _playerWalkingSpeed) * _playerMovement.z;
+    //    //float _playerCurrentSpeedX = (_isSprinting && _hasStamina ? _playerRunningSpeed : _playerWalkingSpeed) * _playerMovement.x;
+    //    //float _playerCurrentSpeedZ = (_isSprinting && _hasStamina ? _playerRunningSpeed : _playerWalkingSpeed) * _playerMovement.z;
+    //    //float _playerMoveDirectionY = _playerMovementDirection.y;
 
-        float _playerMoveDirectionY = _playerMovementDirection.y;
-        
-        _playerMovementDirection = (forward * _playerCurrentSpeedZ) + (right * _playerCurrentSpeedX);
-            
-        // Move camera relative to Player.
-        _playerMovement = _playerMovement.z * _cameraReference.forward.normalized + _playerMovement.x * transform.right.normalized;
-        
+    //    //_playerMovementDirection = (forward * _playerCurrentSpeedZ) + (right * _playerCurrentSpeedX);
 
-            // _playerAcceleration += _playerAccelerationRate * Time.deltaTime * _playerAcclerationMultiplier;
-            // _playerAcceleration = Mathf.Min(_playerAcceleration, _playerSpeed);
-        
-            // _playerAcceleration -= _playerAccelerationRate * Time.deltaTime * 2;
-            // _playerAcceleration = Mathf.Max(_playerAcceleration, 0);
-            
-        if (_playerCurrentSpeedX == 0f && _playerCurrentSpeedZ == 0f)
-        {
-            
-            //_animator.SetFloat("playerMovementState", 0);
-            //_animator.SetFloat("playerWalkingState", 0);
-            //_animator.speed = 1;
-        }
-        else
-        {
+    //    //_playerAcceleration += Time.deltaTime * _playerAcclerationMultiplier;
 
-            //_animator.speed = 5;
+    //    // Player Sprint
+    //    if (_isSprinting)
+    //    {
+    //        _playerStats.PlayerStaminaHandler();
+    //        _playerSpeed = _playerRunningSpeed;
+    //    } else
+    //    {
+    //        _playerSpeed = _playerWalkingSpeed;
+    //    }
 
-        }
-        
-        if (_playerCurrentSpeedX < 0)
-        {
-            
-            //_animator.SetFloat("speed", 1);
-            
-        } else if (_playerCurrentSpeedX > 0)
-        {
-            
-            //_animator.SetFloat("walking", 0.42f);
-        
-        }
+    //    // Player Jump
+    //    if (_controller.isGrounded && _playercontrols.Movement.Jump.triggered)
+    //    {
+    //        _playerMovement.y = _playerJumpHeight;
+    //    }
+    //    //else
+    //    //{
+    //    //    _playerMovementDirection.y = _playerMoveDirectionY;
+    //    //}
 
-        if (_playerCurrentSpeedZ < 0)
-        {
-            
-            //_animator.SetFloat("walking", 0.38f);
+    //    if (!_controller.isGrounded)
+    //    {
 
-        }
+    //        _playerMovement.y -= 9.81f * Time.deltaTime;
+    //    }
 
-        // Player Sprint
-        else if (_playercontrols.Movement.Sprint.inProgress)
-        {
-            _playerStats.PlayerStaminaHandler();
-            //_animator.SetFloat("speed", 1f);
-            //_animator.speed = 10;
-        }
-        
-        // Player Jump
-        if (_charController.isGrounded && _playercontrols.Movement.Jump.triggered)
-        {
-            _playerMovementDirection.y = _playerJumpHeight;
-            //_animator.SetBool("isJumping", true);
-        } else if (_charController.isGrounded)
-        {
-            //_animator.SetBool("isJumping", false);
+    //    _controller.Move(_playerMovement * Time.deltaTime * _playerSpeed);
 
-        }
-        else
-        { 
-            
-            _playerMovementDirection.y = _playerMoveDirectionY;
-            //_animator.speed = 1f;
 
-        }
 
-        //Debug.Log(_animator.GetBool("isJumping"));
-        //Debug.Log(_animator.GetFloat("speed"));
-        //Debug.Log((_playerCurrentSpeedX, _playerCurrentSpeedZ));
-
-        if (!_charController.isGrounded)
-        {
-
-            _playerMovementDirection.y -= 9.81f * Time.deltaTime;
-            // float _playerInertia = 0;
-            //
-            // if (_playerInertia != _playerSpeed)
-            // {
-            //
-            //     _playerInertia += 1;
-            //
-            // }
-
-            //_charController.Move(_playerMovement * Time.deltaTime);
-        }
-
-        _charController.Move(_playerMovementDirection * Time.deltaTime);
 
     }
+
+
 
     private void PlayerRotation()
     {
         _cameraReference.eulerAngles = new Vector3(0, _cameraTransform.eulerAngles.y, 0);
 
-        if (Time.deltaTime == 0)
-        {
-            return;
-        }
+        //if (Time.deltaTime == 0)
+        //{
+        //    return;
+        //}
 
         if (_lastPos.x != transform.position.x && _lastPos.z != transform.position.z || Input.GetKey(KeyCode.Mouse0)) 
         {

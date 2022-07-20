@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Managers.Game;
 
 public class CharacterCustomizerUI : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class CharacterCustomizerUI : MonoBehaviour
     //PlayerStats playerStats;
 
     [SerializeField]private GameObject player;
-
+    [SerializeField] private GameObject _playerHud;
 
     private void Awake()
     {
@@ -27,30 +28,34 @@ public class CharacterCustomizerUI : MonoBehaviour
     {
 
         currentCustomization = new Customization();
-
     }
 
     public void NextButtonPressed()
     {
 
-        characterCustomization.currentCustomization.NextSubObjects();
+        if (characterCustomization._customizationCategoryIndex == 3)
+            characterCustomization.currentCustomization.NextMaterial();
+        else if (characterCustomization._customizationCategoryIndex != 3)
+            characterCustomization.currentCustomization.NextSubObjects();
 
     }
     public void PreviousButtonPressed()
     {
-
-        characterCustomization.currentCustomization.PreviousSubObjects();
+        if (characterCustomization._customizationCategoryIndex == 3)
+            characterCustomization.currentCustomization.PreviousMaterial();
+        else if (characterCustomization._customizationCategoryIndex != 3)
+            characterCustomization.currentCustomization.PreviousSubObjects();
 
     }
 
     public void PlayGame()
     {
 
-        // Calls camera which doesn't exist.
+        Managers.PlayerManager.Instance.EnablePlayerComponents(true);
 
-        //player.GetComponent<CharacterCustomizationInitialization>().enabled = true;
-        SceneManager.LoadScene("Protoworld");
+        Managers.Game.GameManager.Instance.LockCurser();
 
+        this.gameObject.SetActive(false);
     }
 
     // Temp name - Change it.
@@ -63,6 +68,8 @@ public class CharacterCustomizerUI : MonoBehaviour
         characterCustomization.currentCustomization.LoadCustomizationHair();
         characterCustomization.LoadFace();
         characterCustomization.currentCustomization.LoadCustomizationFace();
+        characterCustomization.LoadBody();
+        characterCustomization.currentCustomization.LoadCustomizationBody();
 
     }
 
@@ -77,5 +84,9 @@ public class CharacterCustomizerUI : MonoBehaviour
     public void Face()
     {
         characterCustomization.LoadFace();
+    }
+    public void Body()
+    {
+        characterCustomization.LoadBody();
     }
 }

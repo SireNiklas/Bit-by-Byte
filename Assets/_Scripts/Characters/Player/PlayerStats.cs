@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
 
-    PlayerMovementController _playermovementcontroller;
+    PlayerMovementController _playerMovementController;
     private CharacterController _characterController;
     
     public int playerStamina = 1000;
@@ -20,13 +20,11 @@ public class PlayerStats : MonoBehaviour
     [SerializeField]
     private bool _grounded;
 
-    [SerializeField] private float _velocityThreshold = 5f;
-
     private RaycastHit _fallHit;
     
     private void Awake()
     {
-        _playermovementcontroller = GetComponent<PlayerMovementController>();
+        _playerMovementController = GetComponent<PlayerMovementController>();
         _characterController = GetComponent<CharacterController>();
         _hudController = GameObject.FindWithTag("PlayerHud").GetComponent<HUDController>();
         
@@ -73,9 +71,7 @@ public class PlayerStats : MonoBehaviour
 
             if (_fallDistance > _minimumFallDistance)
             {
-                playerHealth -= _fallDistance;
-                
-                Debug.Log(_fallDistance);
+                //playerHealth -= _fallDistance;
                 
                 _fallDistance = 0;
             }
@@ -102,7 +98,6 @@ public class PlayerStats : MonoBehaviour
 
         if (playerHealth < 100) playerHealth += 0.01f;
 
-        playerStamina = playerStamina;
         _hudController.PlayerStatsUpdater();
     }
     
@@ -127,12 +122,12 @@ bool hasFallen = false;
 void FallDamage()
 {
     
-    if (!_charController.isGrounded)
+    if (!_controller.isGrounded)
     {
-        Debug.Log(_charController.velocity);
+        Debug.Log(_controller.velocity);
     }
     
-    if (_charController.velocity.y < 0)
+    if (_controller.velocity.y < 0)
     {
         fallTime += Time.deltaTime;
 

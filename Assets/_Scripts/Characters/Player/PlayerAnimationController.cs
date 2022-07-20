@@ -5,14 +5,20 @@ using UnityEngine;
 public class PlayerAnimationController : MonoBehaviour
 {
 
-    [SerializeField] private float _playerAnimationSpeed;
-    [SerializeField] private float _playerAnimationWalkingSpeed;
-    
+    //[SerializeField] private float velocity = 0.0f;
+
+    [SerializeField] private Animator animator;
+
+    private void Awake()
+    {
+        
+        animator = GetComponent<Animator>();
+        
+    }
+
     private void PlayerAnimation()
     {
         
-        
-
     }
     
 }

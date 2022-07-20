@@ -119,7 +119,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b4d04a03f078f434b89423bb1a2d748a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1126,7 +1126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 966023696987566009}
   staminaBar: {fileID: 966023697228349567}
-  senseSlider: {fileID: 0}
 --- !u!1 &966023698449837386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,8 +2204,8 @@ GameObject:
   - component: {fileID: 7267175427457471862}
   - component: {fileID: 966023696690665705}
   - component: {fileID: 5817962917939212699}
+  - component: {fileID: 3518142800190855424}
   - component: {fileID: 966023696690665704}
-  - component: {fileID: 966023696690665707}
   - component: {fileID: 966023696690665706}
   - component: {fileID: 966023696690665709}
   - component: {fileID: 966023696690665708}
@@ -2343,10 +2342,16 @@ MonoBehaviour:
     - {fileID: 8898010303282943339}
     - {fileID: 7788049540939012699}
     - {fileID: 87701756997591272}
-  - DisplayName: Wand
-    Renderers: []
-    Materials: []
+  - DisplayName: Body
+    Renderers:
+    - {fileID: 4960320977319967332}
+    Materials:
+    - {fileID: 2100000, guid: 7d64267e5eb8ca74d8c9c25ffd8dcd35, type: 2}
+    - {fileID: 2100000, guid: 8a9edcf2dbd584546b8aa4e4e90f445d, type: 2}
+    - {fileID: 2100000, guid: acfa2dc1ef192cb4391aecaaff8e192f, type: 2}
+    - {fileID: 2100000, guid: d027e556141828245a28e5cffcfd23d3, type: 2}
     SubObjects: []
+  _customizationCategoryIndex: 4
 --- !u!114 &5817962917939212699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2361,6 +2366,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterCustomization: {fileID: 966023696690665705}
   player: {fileID: 0}
+--- !u!114 &3518142800190855424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960320977310059252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfba1a2194a0094d8bb26507517a070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerSpeed: 0
+  _playerJumpHeight: 50
+  _playerRotation: 27
+  playerVelocity: 0
 --- !u!114 &966023696690665704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2373,25 +2394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd311bfcbb0df134884687bc5fd48c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &966023696690665707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4960320977310059252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bfba1a2194a0094d8bb26507517a070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerWalkingSpeed: 3
-  _playerRunningSpeed: 5
-  _playerJumpHeight: 7
-  _playerRotation: 27
-  _playerAcceleration: 0
-  _playerAccelerationRate: 5
-  _playerAcclerationMultiplier: 10
 --- !u!114 &966023696690665706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2428,7 +2430,6 @@ MonoBehaviour:
   regenrate: 0.01
   _wasGrounded: 0
   _grounded: 0
-  _velocityThreshold: 5
   _groundedPosition: 0
   _fallDistance: 0
   _minimumFallDistance: 5
@@ -2444,8 +2445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cbc640782f156d49a23359d4907f2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerAnimationSpeed: 0
-  _playerAnimationWalkingSpeed: 0
+  animator: {fileID: 0}
 --- !u!114 &966023696690665711
 MonoBehaviour:
   m_ObjectHideFlags: 0

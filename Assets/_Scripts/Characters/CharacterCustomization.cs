@@ -4,9 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterCustomization : MonoBehaviour
-{
-    private PlayerManager _playerManager;
-    
+{    
     //public List<Customization> Customizations;
     
     public Customization currentCustomization { get; private set; }
@@ -14,7 +12,7 @@ public class CharacterCustomization : MonoBehaviour
     public Customization[] Customizations;
     enum CustomizationCategories { HEAD, HAIR, FACE, BODY };
 
-    private int _customizationCategoryIndex = System.Enum.GetValues(typeof(CustomizationCategories)).Length;
+    public int _customizationCategoryIndex = System.Enum.GetValues(typeof(CustomizationCategories)).Length;
 
 
     private void Awake()
@@ -74,6 +72,8 @@ public class CharacterCustomization : MonoBehaviour
         currentCustomization.LoadCustomizationHair();
             LoadFace();
         currentCustomization.LoadCustomizationFace();
+            LoadBody();
+        currentCustomization.LoadCustomizationBody();
         }
 
     }
@@ -93,6 +93,11 @@ public class CharacterCustomization : MonoBehaviour
         _customizationCategoryIndex = (int)CustomizationCategories.FACE;
         currentCustomization = Customizations[_customizationCategoryIndex];
     }
+    public void LoadBody()
+    {
+        _customizationCategoryIndex = (int)CustomizationCategories.BODY;
+        currentCustomization = Customizations[_customizationCategoryIndex];
+    }
 
     void CustomizationSelection()
     {
@@ -105,6 +110,7 @@ public class CharacterCustomization : MonoBehaviour
             _customizationCategoryIndex = Customizations.Length - 1;
         if (_customizationCategoryIndex >= Customizations.Length)
             _customizationCategoryIndex = 0;
+
         currentCustomization = Customizations[_customizationCategoryIndex];
 
     }
@@ -141,6 +147,8 @@ public class Customization
         _materialIndex--;
         if (_materialIndex < 0)
             _materialIndex = Materials.Length - 1;
+
+        Debug.Log(_materialIndex);
 
         UpdateRenderers();
         SaveMaterialObjects();
@@ -239,6 +247,18 @@ public class Customization
                 SubObjects[i].SetActive(i == loadHair);
         
         Debug.Log("Loaded: " + DisplayName + " Item: " + loadHair);
+
+    }
+    public void LoadCustomizationBody()
+    {
+
+        int loadBody = PlayerPrefs.GetInt("Body");
+
+        foreach (var renderer in Renderers)
+            if (renderer)
+                renderer.material = Materials[loadBody];
+
+        Debug.Log("Loaded: " + DisplayName + " Item: " + loadBody);
 
     }
 

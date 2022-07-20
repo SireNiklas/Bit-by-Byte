@@ -26,12 +26,15 @@ public class CharacterCustomizationInitialization : MonoBehaviour
         player.GetComponent<CharacterCustomizationInitialization>().enabled = true;
 
         characterCustomization = GetComponent<CharacterCustomization>();
+
         characterCustomization.LoadHead();
         characterCustomization.currentCustomization.LoadCustomizationHead();
         characterCustomization.LoadHair();
         characterCustomization.currentCustomization.LoadCustomizationHair();
         characterCustomization.LoadFace();
         characterCustomization.currentCustomization.LoadCustomizationFace();
+        characterCustomization.LoadBody();
+        characterCustomization.currentCustomization.LoadCustomizationBody();
 
     }
 
