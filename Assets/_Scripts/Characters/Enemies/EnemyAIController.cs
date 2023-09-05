@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class EnemyAIController : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent _enemy;
-    private GameObject _player;
+    public GameObject _player;
 
     private void Awake()
     {
@@ -27,17 +27,8 @@ public class EnemyAIController : MonoBehaviour
     private void Update()
     {
 
-        if (!_player == GameObject.FindWithTag("Player"))
-        {
-            
-            _player = GameObject.FindWithTag("Player");
-            
-        }
-        else
-        {
-            _enemy.SetDestination(_player.transform.position);
+        _enemy.SetDestination(_player.transform.position);
 
-        }
         
     }
 }

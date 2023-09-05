@@ -28,7 +28,7 @@ public class MainMenuController : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManager.LoadScene("ProtoWorld");
+        SceneManager.LoadScene("Scene_Gameplay");
 
     }
 
